@@ -1,0 +1,329 @@
+Frame 684
+Frame 1144
+Frame 1245
+Frame 1295
+Frame 1338
+Frame 1395
+Frame 1445
+Frame 1510
+Frame 1579
+Frame 1631
+Frame 1679
+Frame 1772
+Frame 1826
+Frame 1879
+Frame 1973
+Frame 2030
+Frame 2080
+Frame 2148
+Frame 2280
+CreateBlock 476477241
+StartDragBlock 476477241
+MoveBlock 476477241 (50.55546, 3.75, -5.68734)
+Frame 2330
+MoveBlock 476477241 (49.694546, 3.75, -5.2662277)
+Frame 2403
+Frame 2447
+Frame 2520
+Frame 2581
+Frame 2631
+Frame 2673
+MoveBlock 476477241 (47.981743, 3.75, -4.847145)
+Frame 2714
+MoveBlock 476477241 (36.413727, 3.75, -2.5846329)
+Frame 2787
+MoveBlock 476477241 (22.5, 3.75, 0.0)
+Frame 2832
+MoveBlock 476477241 (0.0, 3.75, 0.0)
+Frame 2925
+Frame 2965
+MoveBlock 476477241 (-7.5, 3.75, 0.0)
+Frame 3022
+Frame 3065
+Frame 3115
+Frame 3199
+EndDragBlock 476477241
+Frame 3249
+Frame 3305
+Frame 3349
+Frame 3399
+Frame 3442
+Frame 3499
+Frame 3556
+Frame 3616
+Frame 3689
+CreateBlock 1803181641
+StartDragBlock 1803181641
+MoveBlock 1803181641 (52.92103, 3.75, -5.4766846)
+Frame 3734
+MoveBlock 1803181641 (22.5, 3.75, 0.0)
+Frame 3800
+MoveBlock 1803181641 (7.5, 3.75, 0.0)
+Frame 3850
+Frame 3900
+MoveBlock 1803181641 (7.5, 3.75, 7.5)
+Frame 3950
+EndDragBlock 1803181641
+Frame 4000
+Frame 4079
+Frame 4134
+Frame 4313
+Frame 4368
+Frame 4440
+Frame 4485
+Frame 4557
+CreateBlock 1769470125
+StartDragBlock 1769470125
+MoveBlock 1769470125 (45.424313, 3.75, -4.4304276)
+Frame 4635
+Frame 4685
+MoveBlock 1769470125 (22.5, 3.75, 0.0)
+Frame 4779
+MoveBlock 1769470125 (15.0, 3.75, 0.0)
+Frame 4832
+MoveBlock 1769470125 (15.0, 3.75, 7.5)
+Frame 4874
+MoveBlock 1769470125 (7.5, 3.75, 7.5)
+Frame 4935
+MoveBlock 1769470125 (7.5, 7.35, 7.5)
+Frame 4986
+MoveBlock 1769470125 (7.5, 21.39, 7.5)
+Frame 5031
+Frame 5086
+Frame 5126
+Frame 5169
+Frame 5263
+Frame 5303
+Frame 5386
+Frame 5436
+Frame 5483
+Frame 5542
+EndDragBlock 1769470125
+Frame 5587
+Frame 5641
+Frame 5693
+Frame 5737
+Frame 5787
+Frame 5837
+Frame 5887
+Frame 5971
+Frame 6010
+Frame 6048
+Frame 6088
+CreateBlock 1581709798
+StartDragBlock 1581709798
+MoveBlock 1581709798 (50.544163, 3.75, -2.7874527)
+Frame 6126
+MoveBlock 1581709798 (49.981, 3.75, -2.7874527)
+Frame 6165
+MoveBlock 1581709798 (46.62032, 3.75, -5.056389)
+Frame 6204
+MoveBlock 1581709798 (41.006042, 3.75, -8.048767)
+Frame 6244
+MoveBlock 1581709798 (28.001192, 3.75, -12.775406)
+Frame 6284
+MoveBlock 1581709798 (22.5, 14.190001, -15.0)
+Frame 6323
+MoveBlock 1581709798 (22.5, 26.19, -15.0)
+Frame 6361
+Frame 6427
+MoveBlock 1581709798 (15.0, 26.19, -15.0)
+Frame 6468
+Frame 6507
+Frame 6545
+MoveBlock 1581709798 (7.5, 26.19, -7.5)
+Frame 6584
+MoveBlock 1581709798 (0.0, 26.19, -7.5)
+Frame 6628
+MoveBlock 1581709798 (-7.5, 26.19, -7.5)
+Frame 6666
+MoveBlock 1581709798 (-15.0, 26.19, -7.5)
+Frame 6708
+Frame 6746
+Frame 6784
+MoveBlock 1581709798 (-22.5, 26.19, 0.0)
+Frame 6823
+Frame 6861
+Frame 6899
+MoveBlock 1581709798 (-15.0, 26.19, 0.0)
+Frame 6937
+Frame 6976
+Frame 7043
+MoveBlock 1581709798 (-7.5, 26.19, 0.0)
+Frame 7081
+Frame 7120
+Frame 7156
+Frame 7212
+Frame 7250
+EndDragBlock 1581709798
+Frame 7289
+Frame 7329
+Frame 7367
+Frame 7405
+Frame 7447
+Frame 7487
+Frame 7527
+Frame 7567
+StartDragBlock 476477241
+MoveBlock 476477241 (-7.5, 3.75, 0.0)
+Frame 7616
+Frame 7654
+MoveBlock 476477241 (-15.0, 3.75, 0.0)
+Frame 7694
+Frame 7732
+MoveBlock 476477241 (-22.5, 3.75, 0.0)
+Frame 7770
+Frame 7814
+Frame 7857
+Frame 7907
+Frame 7945
+Frame 7984
+Frame 8027
+Frame 8068
+Frame 8107
+MoveBlock 476477241 (-22.5, 5.07, 0.0)
+Frame 8144
+MoveBlock 476477241 (-22.5, 13.83, 0.0)
+Frame 8181
+MoveBlock 476477241 (-22.5, 17.55, 0.0)
+Frame 8218
+Frame 8255
+Frame 8291
+Frame 8329
+Frame 8366
+Frame 8404
+Frame 8441
+Frame 8479
+Frame 8516
+MoveBlock 476477241 (-15.0, 17.55, 0.0)
+Frame 8554
+Frame 8592
+Frame 8640
+MoveBlock 476477241 (-7.5, 17.55, 0.0)
+Frame 8679
+Frame 8717
+Frame 8754
+Frame 8792
+Frame 8829
+Frame 8865
+EndDragBlock 476477241
+Frame 8906
+Frame 8943
+Frame 8982
+Frame 9019
+Frame 9056
+Frame 9096
+Frame 9134
+Frame 9172
+Frame 9210
+Frame 9248
+Frame 9286
+Frame 9330
+Frame 9368
+Frame 9407
+Frame 9446
+Frame 9487
+StartDragBlock 1581709798
+MoveBlock 1581709798 (-7.5, 3.75, 0.0)
+Frame 9528
+Frame 9570
+MoveBlock 1581709798 (-15.0, 3.75, 0.0)
+Frame 9611
+MoveBlock 1581709798 (-39.326954, 3.75, -5.056389)
+Frame 9650
+MoveBlock 1581709798 (-42.84083, 3.75, -6.3241653)
+Frame 9689
+DeleteBlock 1581709798
+EndDragBlock 1581709798
+Frame 9728
+Frame 9765
+Frame 9804
+Frame 9842
+Frame 9881
+Frame 9920
+Frame 9957
+Frame 9995
+Frame 10043
+Frame 10089
+Frame 10126
+Frame 10162
+Frame 10201
+Frame 10241
+Frame 10299
+Frame 10337
+Frame 10376
+StartDragBlock 1803181641
+MoveBlock 1803181641 (7.5, 3.75, 7.5)
+Frame 10412
+Frame 10449
+Frame 10486
+Frame 10525
+Frame 10563
+Frame 10602
+MoveBlock 1803181641 (0.0, 3.87, 7.5)
+Frame 10640
+MoveBlock 1803181641 (0.0, 17.43, 7.5)
+Frame 10677
+MoveBlock 1803181641 (0.0, 25.35, 7.5)
+Frame 10714
+Frame 10751
+Frame 10788
+Frame 10825
+Frame 10861
+Frame 10897
+MoveBlock 1803181641 (0.0, 25.35, 0.0)
+Frame 10934
+MoveBlock 1803181641 (0.0, 25.35, -7.5)
+Frame 10971
+MoveBlock 1803181641 (-7.5, 25.35, -15.0)
+Frame 11008
+MoveBlock 1803181641 (-7.5, 25.35, -22.5)
+Frame 11046
+MoveBlock 1803181641 (-7.5, 25.35, -30.0)
+Frame 11081
+MoveBlock 1803181641 (-5.4458632, 25.35, -38.51172)
+Frame 11117
+MoveBlock 1803181641 (-5.6960754, 25.35, -46.77829)
+Frame 11153
+MoveBlock 1803181641 (-4.387379, 25.35, -53.95893)
+Frame 11188
+MoveBlock 1803181641 (-3.8297284, 25.35, -54.70745)
+Frame 11224
+MoveBlock 1803181641 (-3.453371, 25.35, -55.08333)
+Frame 11260
+MoveBlock 1803181641 (-3.261517, 25.35, -55.08333)
+Frame 11296
+DeleteBlock 1803181641
+EndDragBlock 1803181641
+Frame 11332
+Frame 11369
+Frame 11405
+Frame 11443
+Frame 11482
+Frame 11531
+Frame 11571
+Frame 11615
+Frame 11655
+Frame 11691
+Frame 11727
+Frame 11765
+Frame 11802
+Frame 11839
+Frame 11877
+Frame 11913
+Frame 11948
+Frame 11984
+Frame 12019
+Frame 12054
+Frame 12090
+Frame 12126
+Frame 12161
+Frame 12197
+Frame 12232
+Frame 12268
+Frame 12306
+Frame 12344
+Frame 12380
+Frame 12415
+Frame 12450
+Frame 12488
