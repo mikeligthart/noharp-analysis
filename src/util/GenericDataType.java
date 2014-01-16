@@ -1,4 +1,4 @@
-package dataTypes;
+package util;
 
 public abstract class GenericDataType {
 	

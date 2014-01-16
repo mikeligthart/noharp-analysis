@@ -1,4 +1,7 @@
-package dataTypes;
+package general;
+
+import util.GenericDataType;
+
 
 public class MoveBlock extends GenericDataType {
 

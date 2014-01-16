@@ -1,4 +1,6 @@
-package dataTypes;
+package mouse;
+
+import util.GenericDataType;
 
 public class MouseReleased extends GenericDataType {
 
