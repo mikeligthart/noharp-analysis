@@ -1,0 +1,6 @@
+Started Parsing raw log files
+Number of files: 2
+Opened Keyboard.log
+Opened Leap.log
+Exception in parse with the following message: null
+Finished Parsing raw log files

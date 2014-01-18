@@ -1,0 +1,6 @@
+Started Parsing raw log files
+Number of files: 2
+Opened Keyboard.log
+Opened Leap.log
+InteractionDeviceNotFoundException in parse with the following message: No interaction device found
+Finished Parsing raw log files
