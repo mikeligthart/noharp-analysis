@@ -8,7 +8,7 @@ public class NewTask extends GenericDataType {
 	private int id;
 
 	public NewTask(int frame, int id) {
-		super(frame);
+		super(frame, DataTypes.NEW_TASK);
 		this.id = id;
 	}
 

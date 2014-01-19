@@ -8,7 +8,7 @@ public class CreateBlock extends GenericDataType {
 	private int id;
 
 	public CreateBlock(int frame, int id) {
-		super(frame);
+		super(frame, DataTypes.CREATE_BLOCK);
 		this.id = id;
 	}
 

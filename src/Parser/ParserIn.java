@@ -9,6 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import leap.*;
 import mouse.*;
 import Exceptions.InteractionDeviceNotFoundException;
 import Exceptions.LineProcessException;
@@ -27,7 +28,7 @@ public class ParserIn {
 		File folderRawLogFiles = new File(locationRawData);
 		File[] listOfLogs = folderRawLogFiles.listFiles();
 		participants = new ArrayList<>();
-		logger = new Logger("log/", true);
+		logger = new Logger("log/", false);
 		
 		//Starting up logger
 		logger.log("Started Parsing raw log files");
@@ -39,7 +40,9 @@ public class ParserIn {
 		 */
 		for (File f: listOfLogs){
 			logger.log("Opened " + f.getName());
-			participants.add(parse(f));
+			Participant currentParticipant = parse(f); //generate a Participant from log file
+			currentParticipant.aggregateData(); // aggregate information from participant;
+			participants.add(currentParticipant); //add the current participant to the list of participants
 		}
 		
 		//Close up neatly
@@ -54,14 +57,14 @@ public class ParserIn {
 	private Participant parse(File rawLogFile){
 		BufferedReader br = null;
 		Participant parsedResult = null;
-		InteractionDevice interaction = null;
+		InteractionDevice device = null;
 		int frame = 0;
 		String nameOfLog = rawLogFile.getName();
 		int id = Integer.parseInt(nameOfLog.substring(0, nameOfLog.indexOf('.')));
 		
 		try {
-			interaction = deteriminInteractionDevice(rawLogFile);
-			parsedResult = new Participant(id, interaction);
+			device = deteriminInteractionDevice(rawLogFile);
+			parsedResult = new Participant(id, device);
 			br = new BufferedReader(new FileReader(rawLogFile));
 			String line;
 			while ((line = br.readLine()) != null) {
@@ -177,6 +180,22 @@ public class ParserIn {
 			return new NewTask(frame, Integer.parseInt(logItemAttributeValues));
 		case START_DRAG_BLOCK:
 			return new StartDragBlock(frame, Integer.parseInt(logItemAttributeValues));
+		case FINGER:
+			return new Finger(frame, Integer.parseInt(logItemAttributeValues.substring(0, logItemAttributeValues.indexOf(' '))));
+		case GRABBED:
+			return new Grabbed(frame);
+		case HAND:
+			String stringId = logItemAttributeValues.substring(0, logItemAttributeValues.indexOf(' '));
+			String stringHand = logItemAttributeValues.substring(logItemAttributeValues.indexOf(')') + 2);
+			boolean isLeft = false;
+			if (stringHand.contentEquals("left")){
+				isLeft = true;
+			}
+			return new Hand(frame, Integer.parseInt(stringId), isLeft);
+		case SWIPEDVERTICAL:
+			return new SwipedVertical(frame);
+		case SWIPEDHORIZONTAL:
+			return new SwipedHorizontal(frame);
 		default:
 			return null;
 		}

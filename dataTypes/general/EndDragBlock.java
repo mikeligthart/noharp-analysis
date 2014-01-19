@@ -8,7 +8,7 @@ public class EndDragBlock extends GenericDataType {
 	private int id;
 
 	public EndDragBlock(int frame, int id) {
-		super(frame);
+		super(frame, DataTypes.END_DRAG_BLOCK);
 		this.id = id;
 	}
 

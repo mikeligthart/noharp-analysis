@@ -8,7 +8,7 @@ public class DeleteBlock extends GenericDataType {
 	private int id;
 
 	public DeleteBlock(int frame, int id) {
-		super(frame);
+		super(frame, DataTypes.DELETE_BLOCK);
 		this.id = id;
 	}
 

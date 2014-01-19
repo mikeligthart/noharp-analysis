@@ -1,7 +1,8 @@
 package util;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
+import aggregation.Accuracy;
 
 public class Participant {
 		
@@ -9,18 +10,23 @@ public class Participant {
 		KEYBOARD, LEAP;
 	}
 	
-	private InteractionDevice interaction;
+	
+	private InteractionDevice device;
 	private ArrayList<GenericDataType> dataPoints;
 	private int id;
+	private boolean processed;
+	private Accuracy accuracy;
 	
-	public Participant(int id, InteractionDevice interaction){
+	
+	public Participant(int id, InteractionDevice device){
 		this.id = id;
-		this.interaction = interaction;
+		this.device = device;
+		processed = false;
 		dataPoints = new ArrayList<>();
 	}
 
-	public InteractionDevice getInteraction() {
-		return interaction;
+	public InteractionDevice getDevice() {
+		return device;
 	}
 
 	public ArrayList<GenericDataType> getDataPoints() {
@@ -31,14 +37,31 @@ public class Participant {
 		dataPoints.add(dataPoint);	
 	}
 	
+	public void aggregateData(){
+		accuracy = new Accuracy(this);
+		processed = true;
+	}
+	
 	@Override
 	public String toString(){
 		StringBuilder output = new StringBuilder();
-		output.append("== PARSED DATA FOR PARTICIPANT #" + id + " ==");
-		for(Iterator<GenericDataType> it = dataPoints.iterator(); it.hasNext();){
-			output.append(it.next().toString() + "\n");
+		output.append(id).append(", ");
+		output.append(device).append(", ");
+		
+		if(processed){
+			output.append(accuracy.getAccuracy());
 		}
-		output.append("== END #" + id + " ==\n\n");
+		else{
+			output.append("Not processed yes");
+		}
+		return output.toString();
+	}
+	
+	public static String getHeader(){
+		StringBuilder output = new StringBuilder();
+		output.append("id").append(", ");
+		output.append("device").append(", ");
+		output.append("accuracy");
 		return output.toString();
 	}
 	

@@ -18,7 +18,12 @@ public abstract class GenericDataType {
 	    KEY_PRESS_LEFT("keyPressLeft"),
 	    KEY_PRESS_RIGHT("KeyPressRight"),
 	    MOUSE_CLICK("MouseClick"),
-	    MOUSE_RELEASED("MouseReleased")
+	    MOUSE_RELEASED("MouseReleased"),
+	    FINGER("Finger"),
+	    GRABBED("Grabbed"),
+	    HAND("Hand"),
+	    SWIPEDVERTICAL("SwipedVertical"),
+	    SWIPEDHORIZONTAL("SwipedHorizontal")
 	    ;
 	    /**
 	     * @param text
@@ -44,15 +49,21 @@ public abstract class GenericDataType {
 	}	
 	
 	private int frame;
+	private DataTypes name;
 	
-	public GenericDataType(int frame){
+	public GenericDataType(int frame, DataTypes name){
 		this.frame = frame;
+		this.name = name;
 	}
 	
 	public int getFrame(){
 		return frame;
 	}
 	
+	public DataTypes getName(){
+		return name;
+	}
+		
 	@Override
 	public abstract String toString();
 }

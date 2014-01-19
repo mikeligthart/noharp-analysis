@@ -1,18 +1,16 @@
 package main;
 
-import java.util.ArrayList;
-
 import parser.ParserIn;
-import util.Participant;
+import parser.ParserOut;
 
 public class Main {
 
 	private final static String LOCATION_RAWDATA = "rawdata";
+	private final static String LOCATION_PROCESSED_DATA = "processed/";
 	
 	public static void main(String[] args) {
 		ParserIn parserIn = new ParserIn(LOCATION_RAWDATA);
-		@SuppressWarnings("unused")
-		ArrayList<Participant> participants = parserIn.getParsedData();
+		new ParserOut(LOCATION_PROCESSED_DATA, parserIn.getParsedData());		
 	}
 
 }

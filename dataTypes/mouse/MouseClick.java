@@ -5,7 +5,7 @@ import util.GenericDataType;
 public class MouseClick extends GenericDataType {
 
 	public MouseClick(int frame) {
-		super(frame);
+		super(frame, DataTypes.MOUSE_CLICK);
 	}
 
 	@Override

@@ -9,7 +9,7 @@ public class MoveBlock extends GenericDataType {
 	private double x, y, z;
 
 	public MoveBlock(int frame, int id, double x, double y, double z) {
-		super(frame);
+		super(frame, DataTypes.MOVE_BLOCK);
 		this.id = id;
 		this.x = x;
 		this.y = y;

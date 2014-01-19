@@ -8,7 +8,7 @@ public class StartDragBlock extends GenericDataType {
 	private int id;
 
 	public StartDragBlock(int frame, int id) {
-		super(frame);
+		super(frame, DataTypes.START_DRAG_BLOCK);
 		this.id = id;
 	}
 
