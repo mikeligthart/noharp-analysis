@@ -20,8 +20,10 @@ import leap.Grabbed;
 import leap.Hand;
 import leap.SwipedHorizontal;
 import leap.SwipedVertical;
+import mouse.KeyPressDown;
 import mouse.KeyPressLeft;
 import mouse.KeyPressRight;
+import mouse.KeyPressUp;
 import mouse.MouseClick;
 import mouse.MouseLocDelta;
 import mouse.MouseReleased;
@@ -175,6 +177,10 @@ public class ParserIn {
 			return new KeyPressLeft(frame);
 		case KEY_PRESS_RIGHT:
 			return new KeyPressRight(frame);
+		case KEY_PRESS_UP:
+			return new KeyPressUp(frame);
+		case KEY_PRESS_DOWN:
+			return new KeyPressDown(frame);
 		case MOUSE_CLICK:
 			return new MouseClick(frame);
 		case MOUSE_LOC_DELTA:

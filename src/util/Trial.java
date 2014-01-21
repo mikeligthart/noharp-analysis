@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import aggregation.Accuracy;
+import aggregation.Counts;
 import aggregation.DeviceDistance;
 import aggregation.Speed;
 
@@ -22,6 +23,7 @@ public class Trial {
 	private Speed speed;
 	private DeviceDistance distance;
 	private static int numberOfTasks;
+	private Counts counts;
 	
 	
 	public Trial(int id, InteractionDevice device){
@@ -48,6 +50,7 @@ public class Trial {
 		speed = new Speed(this);
 		numberOfTasks = speed.numberOftasks();
 		distance = new DeviceDistance(this);
+		counts = new Counts(this);
 		processed = true;
 	}
 	
@@ -63,7 +66,10 @@ public class Trial {
 			for (Iterator<Integer> it = speed.getSpeed().iterator(); it.hasNext();){
 				output.append(it.next()).append(",");	
 			}
-			output.append(distance.getDistance());
+			output.append(distance.getDistance()).append(",");
+			output.append(counts.getBlockMoves()).append(",");
+			output.append(counts.getScreenRotateHorizontal()).append(",");
+			output.append(counts.getScreenRotateVertical());
 		}
 		else{
 			output.append("Not processed yes");
@@ -79,11 +85,17 @@ public class Trial {
 			output.append("keyboard_speed_task_" + i).append(",");
 		}
 		output.append("keyboard_distance").append(",");
+		output.append("keyboard_block_moves").append(",");
+		output.append("keyboard_horizontal_rotations").append(",");
+		output.append("keyboard_vertical_rotations").append(",");
 		output.append("leap_accuracy").append(",");
 		for (int i = 1; i <= numberOfTasks; i++){
 			output.append("leap_speed_task_" + i).append(",");
 		}
-		output.append("leap_distance");
+		output.append("leap_distance").append(",");
+		output.append("leap_block_moves").append(",");
+		output.append("leap_horizontal_rotations").append(",");
+		output.append("leap_vertical_rotations");
 		return output.toString();
 	}
 }

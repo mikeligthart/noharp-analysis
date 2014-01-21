@@ -15,6 +15,8 @@ public abstract class GenericDataType {
 	    START_DRAG_BLOCK("StartDragBlock"),
 	    KEY_PRESS_LEFT("keyPressLeft"),
 	    KEY_PRESS_RIGHT("KeyPressRight"),
+	    KEY_PRESS_UP("KeyPressUp"),
+	    KEY_PRESS_DOWN("KeyPressDown"),
 	    MOUSE_CLICK("MouseClick"),
 	    MOUSE_LOC_DELTA("MouseLocDelta"),
 	    MOUSE_RELEASED("MouseReleased"),
@@ -47,7 +49,7 @@ public abstract class GenericDataType {
 	    }
 	}	
 	
-	private int frame;
+	protected int frame;
 	private DataTypes name;
 	
 	public GenericDataType(int frame, DataTypes name){
@@ -65,4 +67,12 @@ public abstract class GenericDataType {
 		
 	@Override
 	public abstract String toString();
+	
+	@Override
+	public abstract int hashCode();
+	
+	@Override
+	public abstract boolean equals(Object object);
+	
+	
 }

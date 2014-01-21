@@ -2,15 +2,15 @@ package mouse;
 
 import util.GenericDataType;
 
-public class MouseReleased extends GenericDataType {
+public class KeyPressDown extends GenericDataType {
 
-	public MouseReleased(int frame) {
-		super(frame, DataTypes.MOUSE_RELEASED);
+	public KeyPressDown(int frame) {
+		super(frame, DataTypes.KEY_PRESS_DOWN);
 	}
 
 	@Override
 	public String toString() {
-		return "MouseReleased";
+		return "KeyPressDown";
 	}
 	
 	@Override
@@ -29,7 +29,7 @@ public class MouseReleased extends GenericDataType {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		MouseReleased other = (MouseReleased) obj;
+		KeyPressDown other = (KeyPressDown) obj;
 		if (frame != other.frame)
 			return false;
 		return true;
