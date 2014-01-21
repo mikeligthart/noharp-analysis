@@ -122,10 +122,6 @@ public class ParserIn {
 				//process the line if it is not a frame
 					GenericDataType foundType = processLine(line, frame);
 					if (foundType != null){
-						if (foundType.getName() == DataTypes.MOUSE_LOC_DELTA){
-							System.out.println("Hoi");
-							System.out.println(foundType.toString());
-						}
 						//logger.log(foundType.toString() + " | added to participant #" + id);
 						parsedResult.add(foundType);
 					}
@@ -205,12 +201,17 @@ public class ParserIn {
 			return new Grabbed(frame);
 		case HAND:
 			String stringId = logItemAttributeValues.substring(0, logItemAttributeValues.indexOf(' '));
+			String handXYZ = logItemAttributeValues.substring(logItemAttributeValues.indexOf('(')+1, logItemAttributeValues.indexOf(')'));
+			String handX = handXYZ.substring(0, handXYZ.indexOf(','));
+			String handYZ = handXYZ.substring(handXYZ.indexOf(' ') + 1);
+			String handY = handYZ.substring(0, handYZ.indexOf(','));
+			String handZ = handYZ.substring(handYZ.indexOf(' ') + 1);
 			String stringHand = logItemAttributeValues.substring(logItemAttributeValues.indexOf(')') + 2);
 			boolean isLeft = false;
 			if (stringHand.contentEquals("left")){
 				isLeft = true;
 			}
-			return new Hand(frame, Integer.parseInt(stringId), isLeft);
+			return new Hand(frame, Integer.parseInt(stringId), Double.parseDouble(handX), Double.parseDouble(handY), Double.parseDouble(handZ), isLeft);
 		case SWIPEDVERTICAL:
 			return new SwipedVertical(frame);
 		case SWIPEDHORIZONTAL:

@@ -14,6 +14,6 @@ Steps to add a new loggable in the parser
 
 Steps to add a new aggregator
 1. Create a new class in the 'aggregation' folder that gives back the result of a specific metric (for both the LEAP as keyboard + mouse).
-2. Add an instantiation of the new aggregator class as an attribute to the Trial class.
+2. Add an instantiation of the new aggregator class as an attribute to the Trial class and instantiate in the aggregateData method.
 3. Adapt the toString method of the Trial class to output the aggregated information.
 4. Adapt the static method getHeader to account for the aggregator.
