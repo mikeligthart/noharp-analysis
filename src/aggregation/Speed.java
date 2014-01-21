@@ -8,12 +8,13 @@ import util.GenericDataType.DataTypes;
 import util.Trial;
 
 public class Speed {
-	
+		
 	private ArrayList<GenericDataType> dataPoints;
-	private double averageSpeedEasy, averageSpeedNormal;
+	private ArrayList<Integer> speed;
 	
 	public Speed (Trial trial){
 		dataPoints = trial.getDataPoints();
+		speed = new ArrayList<>();
 		calculate();
 	}
 	
@@ -22,7 +23,19 @@ public class Speed {
 		for (Iterator<GenericDataType> it = dataPoints.iterator(); it.hasNext();){
 			GenericDataType currentDataPoint = it.next();
 			if (currentDataPoint.getName() == DataTypes.NEW_TASK){
-				switch(task){
+					if (task != 0){
+						speed.add(currentDataPoint.getFrame() - firstFrame);
+					}
+					firstFrame = currentDataPoint.getFrame();
+					task++;
+			}
+		}
+		speed.add(dataPoints.get(dataPoints.size() - 1).getFrame() - firstFrame);
+	}
+	
+/*
+ * 
+ * switch(task){
 				case 0:
 					firstFrame = currentDataPoint.getFrame();
 					break;
@@ -40,19 +53,14 @@ public class Speed {
 					firstFrame = currentDataPoint.getFrame();
 					averageSpeedNormal += (dataPoints.get(dataPoints.size() - 1).getFrame() - firstFrame);
 					averageSpeedNormal = averageSpeedNormal/2;
-					break;					
-				}
-				task++;
-			}
-		}
+					break;		
+ */
+	public int numberOftasks(){
+		return speed.size();
 	}
 	
-	public double getAverageSpeedEasy(){
-		return averageSpeedEasy;
-	}
-	
-	public double getAverageSpeedNormal(){
-		return averageSpeedNormal;
+	public ArrayList<Integer> getSpeed(){
+		return speed;
 	}
 	
 	

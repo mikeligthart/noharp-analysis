@@ -1,6 +1,7 @@
 package util;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import aggregation.Accuracy;
 import aggregation.DeviceDistance;
@@ -20,6 +21,7 @@ public class Trial {
 	private Accuracy accuracy;
 	private Speed speed;
 	private DeviceDistance distance;
+	private static int numberOfTasks;
 	
 	
 	public Trial(int id, InteractionDevice device){
@@ -44,6 +46,7 @@ public class Trial {
 	public void aggregateData(){
 		accuracy = new Accuracy(this);
 		speed = new Speed(this);
+		numberOfTasks = speed.numberOftasks();
 		distance = new DeviceDistance(this);
 		processed = true;
 	}
@@ -57,8 +60,9 @@ public class Trial {
 		StringBuilder output = new StringBuilder();
 		if(processed){
 			output.append(accuracy.getAccuracy()).append(",");
-			output.append(speed.getAverageSpeedEasy()).append(",");
-			output.append(speed.getAverageSpeedNormal()).append(",");
+			for (Iterator<Integer> it = speed.getSpeed().iterator(); it.hasNext();){
+				output.append(it.next()).append(",");	
+			}
 			output.append(distance.getDistance());
 		}
 		else{
@@ -71,12 +75,14 @@ public class Trial {
 		StringBuilder output = new StringBuilder();
 		output.append("id").append(",");
 		output.append("keyboard_accuracy").append(",");
-		output.append("keyboard_avarage_speed_easy").append(",");
-		output.append("keyboard_avarage_speed_normal").append(",");
+		for (int i = 1; i <= numberOfTasks; i++){
+			output.append("keyboard_speed_task_" + i).append(",");
+		}
 		output.append("keyboard_distance").append(",");
 		output.append("leap_accuracy").append(",");
-		output.append("leap_avarage_speed_easy").append(",");
-		output.append("leap_avarage_speed_normal").append(",");
+		for (int i = 1; i <= numberOfTasks; i++){
+			output.append("leap_speed_task_" + i).append(",");
+		}
 		output.append("leap_distance");
 		return output.toString();
 	}
