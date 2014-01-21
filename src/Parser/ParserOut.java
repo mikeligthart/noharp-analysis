@@ -11,6 +11,7 @@ import java.util.UUID;
 
 import util.Logger;
 import util.Participant;
+import util.Trial;
 
 public class ParserOut {
 
@@ -24,11 +25,12 @@ public class ParserOut {
 		try {
 		    writer = new BufferedWriter(new OutputStreamWriter(
 		          new FileOutputStream(locationProcessedData + UUID.randomUUID() + ".csv"), "utf-8"));
-		    writer.write(Participant.getHeader() + "\n");
+		    writer.write(Trial.getHeader() + "\n");
 			for (Iterator<Participant> it = participants.iterator(); it.hasNext();){
 				writer.write(it.next().toString() + "\n");
 				logger.log("Participant writen to file");
 			}
+			logger.log("Finished .csv file");
 		} catch (IOException e) {
 			logger.log("IOException in parseOut with the following message: " + e.getMessage());
 		}

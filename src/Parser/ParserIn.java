@@ -1,6 +1,11 @@
 package parser;
 
-import general.*;
+import general.CreateBlock;
+import general.DeleteBlock;
+import general.EndDragBlock;
+import general.MoveBlock;
+import general.NewTask;
+import general.StartDragBlock;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,14 +13,24 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 
-import leap.*;
-import mouse.*;
-import Exceptions.InteractionDeviceNotFoundException;
-import Exceptions.LineProcessException;
-import util.*;
+import leap.Finger;
+import leap.Grabbed;
+import leap.Hand;
+import leap.SwipedHorizontal;
+import leap.SwipedVertical;
+import mouse.KeyPressLeft;
+import mouse.KeyPressRight;
+import mouse.MouseClick;
+import mouse.MouseReleased;
+import util.GenericDataType;
 import util.GenericDataType.DataTypes;
-import util.Participant.InteractionDevice;
+import util.Logger;
+import util.Participant;
+import util.Trial;
+import util.Trial.InteractionDevice;
+import Exceptions.LineProcessException;
 
 
 public class ParserIn {
@@ -28,7 +43,7 @@ public class ParserIn {
 		File folderRawLogFiles = new File(locationRawData);
 		File[] listOfLogs = folderRawLogFiles.listFiles();
 		participants = new ArrayList<>();
-		logger = new Logger("log/", false);
+		logger = new Logger("log/", true);
 		
 		//Starting up logger
 		logger.log("Started Parsing raw log files");
@@ -39,10 +54,33 @@ public class ParserIn {
 		 * Step through every file and parse it into a Participant format
 		 */
 		for (File f: listOfLogs){
-			logger.log("Opened " + f.getName());
-			Participant currentParticipant = parse(f); //generate a Participant from log file
-			currentParticipant.aggregateData(); // aggregate information from participant;
-			participants.add(currentParticipant); //add the current participant to the list of participants
+			String fileName = f.getName();
+			logger.log("Opened " + fileName);
+			InteractionDevice device = null;
+			String deviceString = fileName.substring(0,1);
+			if(deviceString.contentEquals("L")){
+				device = InteractionDevice.LEAP;
+			}
+			else if (deviceString.contentEquals("K")){
+				device = InteractionDevice.KEYBOARD;
+			}
+			int id = Integer.parseInt(fileName.substring(1, fileName.indexOf('.')));
+			
+			Trial currentTrial = parse(f, id, device); //generate a Participant from log file
+			currentTrial.aggregateData(); // aggregate information from participant
+			
+			int participantNr = getExistingParticipant(id);
+			if (participantNr >= 0){
+				participants.get(participantNr).add(currentTrial); //add trial to existing participant
+			}
+			else{
+				Participant newParticipant = new Participant(id); //create new participant
+				logger.log("Created new participant with id = " + id);
+				newParticipant.add(currentTrial); //add the trial to the new participant
+				participants.add(newParticipant); //add the new participant to the list of participants
+			}
+			logger.log("Added " + device + " to participant #" + id);
+			
 		}
 		
 		//Close up neatly
@@ -50,21 +88,28 @@ public class ParserIn {
 		logger.close();
 	}
 	
-	public ArrayList<Participant> getParsedData(){
+	private int getExistingParticipant(int id) {
+		int count = -1;
+		for (Iterator<Participant> it = participants.iterator(); it.hasNext();){
+			count++;
+			if (it.next().getID() == id){
+				return count;
+			}
+		}
+		return -1;
+	}
+
+	public ArrayList<Participant> getParticipants(){
 		return participants;
 	}
 	
-	private Participant parse(File rawLogFile){
+	private Trial parse(File rawLogFile, int id, InteractionDevice device){
 		BufferedReader br = null;
-		Participant parsedResult = null;
-		InteractionDevice device = null;
+		Trial parsedResult = null;
 		int frame = 0;
-		String nameOfLog = rawLogFile.getName();
-		int id = Integer.parseInt(nameOfLog.substring(0, nameOfLog.indexOf('.')));
-		
+	
 		try {
-			device = deteriminInteractionDevice(rawLogFile);
-			parsedResult = new Participant(id, device);
+			parsedResult = new Trial(id, device);
 			br = new BufferedReader(new FileReader(rawLogFile));
 			String line;
 			while ((line = br.readLine()) != null) {
@@ -76,7 +121,7 @@ public class ParserIn {
 				//process the line if it is not a frame
 					GenericDataType foundType = processLine(line, frame);
 					if (foundType != null){
-						logger.log(foundType.toString() + " | added to participant #" + id);
+						//logger.log(foundType.toString() + " | added to participant #" + id);
 						parsedResult.add(foundType);
 					}
 				}
@@ -88,8 +133,6 @@ public class ParserIn {
 			logger.log("FileNotFoundException in parse with the following message: " + e.getMessage());
 		} catch (IOException e) {
 			logger.log("IOException in parse with the following message: " + e.getMessage());
-		} catch (InteractionDeviceNotFoundException e) {
-			logger.log("InteractionDeviceNotFoundException in parse with the following message: " + e.getMessage());
 		} catch (LineProcessException e) {
 			logger.log("LineProcessException in parse with the following message: " + e.getMessage());
 		} 
@@ -98,39 +141,6 @@ public class ParserIn {
 		}		
 		
 		return parsedResult;
-	}
-	
-	private InteractionDevice deteriminInteractionDevice(File rawLogFile) throws InteractionDeviceNotFoundException {
-		BufferedReader br = null;
-		String line = null;
-		
-		try {
-			br = new BufferedReader(new FileReader(rawLogFile));
-			//step through file until it ends or one of the recognizer words are found
-			do {} while((line = br.readLine()) != null && !line.contains(GenericDataType.RECOGNIZER_KEYBOARD) && !line.contains(GenericDataType.RECOGNIZER_LEAP));
-			br.close();
-		
-		//Catch & log exceptions
-		} catch (FileNotFoundException e) {
-			logger.log("FileNotFoundException in deteriminInteractionDevice with the following message: " + e.getMessage());
-		} catch (IOException e) {
-			logger.log("IOException in deteriminInteractionDevice with the following message: " + e.getMessage());
-		}
-		
-		//determine if and what recognizer word was found & return it.
-		if(line == null){
-			throw new InteractionDeviceNotFoundException("No interaction device found");
-		}
-		else if(line.contains(GenericDataType.RECOGNIZER_KEYBOARD)){
-			return InteractionDevice.KEYBOARD;
-		}
-		else if(line.contains(GenericDataType.RECOGNIZER_LEAP)){
-			return InteractionDevice.LEAP;
-		}
-		else{
-			throw new InteractionDeviceNotFoundException("No interaction device found");
-		}
-
 	}
 
 	private GenericDataType processLine(String line, int frame) throws LineProcessException{
