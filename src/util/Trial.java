@@ -3,6 +3,7 @@ package util;
 import java.util.ArrayList;
 
 import aggregation.Accuracy;
+import aggregation.Speed;
 
 public class Trial {
 		
@@ -16,6 +17,7 @@ public class Trial {
 	private int id;
 	private boolean processed;
 	private Accuracy accuracy;
+	private Speed speed;
 	
 	
 	public Trial(int id, InteractionDevice device){
@@ -39,6 +41,7 @@ public class Trial {
 	
 	public void aggregateData(){
 		accuracy = new Accuracy(this);
+		speed = new Speed(this);
 		processed = true;
 	}
 	
@@ -50,7 +53,9 @@ public class Trial {
 	public String toString(){
 		StringBuilder output = new StringBuilder();
 		if(processed){
-			output.append(accuracy.getAccuracy());
+			output.append(accuracy.getAccuracy()).append(",");
+			output.append(speed.getAverageSpeedEasy()).append(",");
+			output.append(speed.getAverageSpeedNormal());
 		}
 		else{
 			output.append("Not processed yes");
@@ -61,8 +66,12 @@ public class Trial {
 	public static String getHeader(){
 		StringBuilder output = new StringBuilder();
 		output.append("id").append(",");
-		output.append("keyboard_accuracy").append(",");;
-		output.append("leap_accuracy");
+		output.append("keyboard_accuracy").append(",");
+		output.append("keyboard_avarage_speed_easy").append(",");
+		output.append("keyboard_avarage_speed_normal").append(",");
+		output.append("leap_accuracy").append(",");
+		output.append("leap_avarage_speed_easy").append(",");
+		output.append("leap_avarage_speed_normal");
 		return output.toString();
 	}
 }

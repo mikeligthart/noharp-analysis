@@ -23,6 +23,7 @@ import leap.SwipedVertical;
 import mouse.KeyPressLeft;
 import mouse.KeyPressRight;
 import mouse.MouseClick;
+import mouse.MouseLocDelta;
 import mouse.MouseReleased;
 import util.GenericDataType;
 import util.GenericDataType.DataTypes;
@@ -121,6 +122,10 @@ public class ParserIn {
 				//process the line if it is not a frame
 					GenericDataType foundType = processLine(line, frame);
 					if (foundType != null){
+						if (foundType.getName() == DataTypes.MOUSE_LOC_DELTA){
+							System.out.println("Hoi");
+							System.out.println(foundType.toString());
+						}
 						//logger.log(foundType.toString() + " | added to participant #" + id);
 						parsedResult.add(foundType);
 					}
@@ -176,6 +181,10 @@ public class ParserIn {
 			return new KeyPressRight(frame);
 		case MOUSE_CLICK:
 			return new MouseClick(frame);
+		case MOUSE_LOC_DELTA:
+			String locX = logItemAttributeValues.substring(0,logItemAttributeValues.indexOf(','));
+			String locY = logItemAttributeValues.substring(logItemAttributeValues.indexOf(' '));
+			return new MouseLocDelta(frame, Double.parseDouble(locX), Double.parseDouble(locY));
 		case MOUSE_RELEASED:
 			return new MouseReleased(frame);
 		case MOVE_BLOCK:

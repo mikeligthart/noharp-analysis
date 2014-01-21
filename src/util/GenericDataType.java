@@ -5,8 +5,6 @@ package util;
 public abstract class GenericDataType {
 	
 	public static final String FRAME = "Frame";
-	public static final String RECOGNIZER_KEYBOARD = "MouseLocDelta";
-	public static final String RECOGNIZER_LEAP = "Hand";
 	
 	public enum DataTypes {
 	    CREATE_BLOCK("CreateBlock"),
@@ -18,6 +16,7 @@ public abstract class GenericDataType {
 	    KEY_PRESS_LEFT("keyPressLeft"),
 	    KEY_PRESS_RIGHT("KeyPressRight"),
 	    MOUSE_CLICK("MouseClick"),
+	    MOUSE_LOC_DELTA("MouseLocDelta"),
 	    MOUSE_RELEASED("MouseReleased"),
 	    FINGER("Finger"),
 	    GRABBED("Grabbed"),
