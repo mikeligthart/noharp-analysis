@@ -1,0 +1,1748 @@
+Frame 1946
+NewTask 17
+Frame 2196
+Frame 2238
+MouseLocDelta 584.0, 352.0
+Frame 2278
+Frame 2319
+Frame 2360
+Frame 2401
+Frame 2442
+Frame 2482
+Frame 2522
+Frame 2562
+Frame 2601
+Frame 2641
+Frame 2681
+Frame 2722
+Frame 2761
+Frame 2800
+Frame 2849
+Frame 2921
+MouseLocDelta 0.0, -1.0
+Frame 2962
+MouseLocDelta -1.0, -2.0
+Frame 3002
+MouseLocDelta 11.0, -8.0
+Frame 3040
+MouseLocDelta 6.0, 0.0
+Frame 3079
+MouseLocDelta 9.0, 0.0
+Frame 3118
+MouseLocDelta 4.0, 3.0
+Frame 3156
+MouseLocDelta 8.0, 3.0
+Frame 3210
+CreateBlock 2110119369
+MouseLocDelta 56.0, 1.0
+Frame 3250
+CreateBlock 1545267468
+MouseLocDelta 13.0, 3.0
+Frame 3290
+CreateBlock 1790591505
+Frame 3328
+CreateBlock 1783079124
+MouseLocDelta 3.0, 0.0
+Frame 3365
+CreateBlock 76543183
+MouseLocDelta 4.0, 0.0
+Frame 3403
+CreateBlock 118572128
+MouseLocDelta 2.0, 0.0
+Frame 3443
+CreateBlock 2124414527
+Frame 3494
+CreateBlock 321358290
+StartDragBlock 321358290
+MoveBlock 321358290 (44.47682, 9.75, -10.939804)
+MouseLocDelta 0.0, 1.0
+MouseClick true
+Frame 3536
+Frame 3585
+MoveBlock 321358290 (44.030567, 9.75, -10.939796)
+MouseLocDelta -3.0, 0.0
+Frame 3629
+MoveBlock 321358290 (38.73313, 9.75, -11.1668625)
+MouseLocDelta -36.0, 1.0
+Frame 3680
+MoveBlock 321358290 (31.152637, 9.75, -13.474319)
+MouseLocDelta -54.0, 10.0
+Frame 3722
+MoveBlock 321358290 (22.5, 9.75, -15.0)
+MouseLocDelta -51.0, 9.0
+Frame 3762
+MouseLocDelta -30.0, 5.0
+Frame 3802
+MoveBlock 321358290 (15.0, 9.75, -22.5)
+MouseLocDelta -53.0, 8.0
+Frame 3850
+MoveBlock 321358290 (7.5, 9.75, -22.5)
+MouseLocDelta -35.0, 6.0
+Frame 3927
+MoveBlock 321358290 (0.0, 9.75, -22.5)
+MouseLocDelta -44.0, 2.0
+Frame 3969
+MoveBlock 321358290 (-15.0, 9.75, -22.5)
+MouseLocDelta -69.0, 2.0
+Frame 4011
+MouseLocDelta -9.0, -2.0
+Frame 4050
+MouseLocDelta -4.0, -2.0
+Frame 4095
+MouseLocDelta 0.0, -1.0
+Frame 4138
+MoveBlock 321358290 (-15.0, 9.75, -15.0)
+MouseLocDelta -1.0, -7.0
+Frame 4176
+MouseLocDelta 0.0, -3.0
+Frame 4214
+MouseLocDelta -1.0, -1.0
+Frame 4254
+MouseLocDelta 0.0, -1.0
+Frame 4292
+MouseLocDelta 0.0, -1.0
+Frame 4330
+MouseLocDelta 0.0, -2.0
+Frame 4368
+Frame 4406
+Frame 4449
+Frame 4493
+EndDragBlock 321358290
+MouseReleased true
+Frame 4533
+MouseLocDelta 2.0, 0.0
+Frame 4572
+MouseLocDelta 9.0, -1.0
+Frame 4619
+MouseLocDelta 77.0, -11.0
+Frame 4658
+MouseLocDelta 198.0, -23.0
+Frame 4696
+MouseLocDelta 39.0, -7.0
+Frame 4745
+CreateBlock 1754024567
+MouseLocDelta 45.0, -11.0
+Frame 4789
+CreateBlock 1256911884
+MouseLocDelta 32.0, -3.0
+Frame 4829
+CreateBlock 240990493
+MouseLocDelta 11.0, -2.0
+Frame 4867
+MouseLocDelta 25.0, 0.0
+Frame 4906
+MouseLocDelta 16.0, 0.0
+Frame 4944
+MouseLocDelta 1.0, 0.0
+Frame 4981
+MouseLocDelta -4.0, 4.0
+Frame 5019
+MouseLocDelta -19.0, 6.0
+Frame 5069
+MouseLocDelta -10.0, 2.0
+Frame 5106
+MouseLocDelta -2.0, 0.0
+Frame 5145
+CreateBlock 886376425
+MouseLocDelta -3.0, 1.0
+Frame 5183
+CreateBlock 234515736
+MouseLocDelta -4.0, 0.0
+Frame 5239
+CreateBlock 873482707
+MouseLocDelta -3.0, 0.0
+Frame 5280
+CreateBlock 2061720503
+StartDragBlock 2061720503
+MoveBlock 2061720503 (44.93966, 9.75, -6.1112823)
+MouseLocDelta -7.0, 0.0
+MouseClick true
+Frame 5345
+MoveBlock 2061720503 (42.164726, 9.75, -5.4766846)
+MouseLocDelta -18.0, -3.0
+Frame 5399
+MoveBlock 2061720503 (39.387577, 9.75, -4.222969)
+MouseLocDelta -17.0, -6.0
+Frame 5438
+MoveBlock 2061720503 (31.837872, 9.75, -0.98316956)
+MouseLocDelta -48.0, -16.0
+Frame 5477
+MoveBlock 2061720503 (22.5, 9.75, 0.0)
+MouseLocDelta -39.0, -7.0
+Frame 5519
+MouseLocDelta -50.0, -1.0
+Frame 5571
+MoveBlock 2061720503 (15.0, 9.75, 0.0)
+MouseLocDelta -28.0, -1.0
+Frame 5618
+MouseLocDelta -29.0, -5.0
+Frame 5656
+MoveBlock 2061720503 (7.5, 9.75, 0.0)
+MouseLocDelta -21.0, 0.0
+Frame 5694
+MouseLocDelta -4.0, 1.0
+Frame 5731
+MouseLocDelta -4.0, 0.0
+Frame 5768
+MouseLocDelta -9.0, 2.0
+Frame 5806
+MouseLocDelta -6.0, 1.0
+Frame 5842
+MouseLocDelta -3.0, 0.0
+Frame 5878
+Frame 5915
+Frame 5952
+Frame 5990
+MouseLocDelta -3.0, 0.0
+Frame 6027
+MouseLocDelta -2.0, 0.0
+Frame 6063
+MouseLocDelta -3.0, -1.0
+Frame 6099
+MoveBlock 2061720503 (0.0, 9.75, 0.0)
+MouseLocDelta -2.0, 0.0
+Frame 6138
+Frame 6175
+MouseLocDelta -2.0, 0.0
+Frame 6212
+MouseLocDelta -1.0, 0.0
+Frame 6248
+MouseLocDelta -2.0, -1.0
+Frame 6284
+Frame 6322
+MouseLocDelta -1.0, 0.0
+Frame 6359
+Frame 6395
+Frame 6432
+Frame 6470
+Frame 6507
+EndDragBlock 2061720503
+MouseReleased true
+Frame 6572
+Frame 6609
+MouseLocDelta 29.0, 1.0
+Frame 6645
+MouseLocDelta 80.0, 1.0
+Frame 6683
+MouseLocDelta 70.0, 0.0
+Frame 6741
+MouseLocDelta 53.0, 5.0
+Frame 6778
+MouseLocDelta 39.0, 7.0
+Frame 6814
+MouseLocDelta 8.0, 4.0
+Frame 6850
+CreateBlock 1872676077
+MouseLocDelta 5.0, 6.0
+Frame 6888
+CreateBlock 165789330
+MouseLocDelta 5.0, 4.0
+Frame 6925
+CreateBlock 1134979151
+MouseLocDelta 2.0, 2.0
+Frame 6961
+CreateBlock 1644838203
+MouseLocDelta 1.0, 1.0
+Frame 6996
+CreateBlock 238689990
+MouseLocDelta 1.0, 2.0
+Frame 7034
+CreateBlock 163209334
+MouseLocDelta 0.0, 5.0
+Frame 7071
+CreateBlock 722659319
+Frame 7108
+CreateBlock 1715150648
+StartDragBlock 1715150648
+MoveBlock 1715150648 (45.148758, 9.75, -6.3241653)
+MouseClick true
+Frame 7144
+MoveBlock 1715150648 (45.00451, 9.75, -6.324173)
+MouseLocDelta -1.0, 0.0
+Frame 7182
+MoveBlock 1715150648 (44.139046, 9.75, -6.324173)
+MouseLocDelta -6.0, 0.0
+Frame 7220
+MoveBlock 1715150648 (39.01649, 9.75, -4.4304276)
+MouseLocDelta -32.0, -9.0
+Frame 7256
+MoveBlock 1715150648 (32.991688, 9.75, -2.9908524)
+MouseLocDelta -40.0, -7.0
+Frame 7291
+MoveBlock 1715150648 (30.0, 9.75, 0.0)
+MouseLocDelta -40.0, -13.0
+Frame 7327
+MoveBlock 1715150648 (22.5, 9.75, 0.0)
+MouseLocDelta -24.0, -15.0
+Frame 7364
+MoveBlock 1715150648 (22.5, 9.75, 7.5)
+MouseLocDelta -14.0, -9.0
+Frame 7401
+MoveBlock 1715150648 (15.0, 9.75, 7.5)
+MouseLocDelta -38.0, -9.0
+Frame 7439
+MoveBlock 1715150648 (7.5, 9.75, 7.5)
+MouseLocDelta -35.0, -3.0
+Frame 7475
+MouseLocDelta -31.0, 0.0
+Frame 7510
+MoveBlock 1715150648 (0.0, 9.75, 7.5)
+MouseLocDelta -36.0, -1.0
+Frame 7549
+MouseLocDelta -27.0, -5.0
+Frame 7586
+MouseLocDelta -7.0, 0.0
+Frame 7623
+Frame 7660
+Frame 7697
+MouseLocDelta -1.0, -3.0
+Frame 7742
+Frame 7801
+Frame 7853
+MouseLocDelta 2.0, 0.0
+Frame 7903
+ScrollDelta 0.12
+Frame 7940
+MoveBlock 1715150648 (0.0, 9.87, 7.5)
+MouseLocDelta 0.0, 1.0
+ScrollDelta 0.72
+Frame 7977
+MoveBlock 1715150648 (0.0, 10.59, 7.5)
+ScrollDelta 1.2
+Frame 8014
+MoveBlock 1715150648 (0.0, 11.79, 7.5)
+Frame 8052
+ScrollDelta 1.08
+Frame 8087
+MoveBlock 1715150648 (0.0, 12.87, 7.5)
+Frame 8123
+Frame 8160
+Frame 8197
+MouseLocDelta 1.0, 0.0
+Frame 8235
+MouseLocDelta 0.0, 1.0
+Frame 8272
+MouseLocDelta 1.0, 4.0
+Frame 8310
+MouseLocDelta 0.0, 6.0
+Frame 8348
+MouseLocDelta 0.0, 4.0
+Frame 8385
+MouseLocDelta 1.0, 4.0
+Frame 8448
+MoveBlock 1715150648 (0.0, 12.87, 0.0)
+MouseLocDelta 0.0, 11.0
+Frame 8485
+MouseLocDelta 0.0, 11.0
+Frame 8520
+MouseLocDelta 0.0, 7.0
+Frame 8557
+MouseLocDelta -1.0, 7.0
+Frame 8593
+MouseLocDelta -1.0, 5.0
+Frame 8631
+MoveBlock 1715150648 (0.0, 12.87, -7.5)
+MouseLocDelta 0.0, 4.0
+Frame 8667
+MouseLocDelta 0.0, 2.0
+Frame 8702
+Frame 8737
+Frame 8772
+Frame 8808
+Frame 8842
+Frame 8877
+Frame 8917
+Frame 8955
+Frame 8991
+MouseLocDelta 0.0, -1.0
+Frame 9027
+MouseLocDelta 0.0, -3.0
+Frame 9063
+MoveBlock 1715150648 (0.0, 12.87, 0.0)
+MouseLocDelta 0.0, -2.0
+Frame 9100
+MouseLocDelta 0.0, -1.0
+Frame 9136
+MouseLocDelta -1.0, -1.0
+Frame 9172
+MouseLocDelta 0.0, -5.0
+Frame 9208
+Frame 9245
+MouseLocDelta 0.0, -1.0
+Frame 9280
+Frame 9314
+Frame 9350
+Frame 9386
+Frame 9423
+Frame 9458
+Frame 9501
+EndDragBlock 1715150648
+MouseReleased true
+Frame 9537
+Frame 9577
+Frame 9669
+MouseLocDelta 8.0, -2.0
+Frame 9707
+CreateBlock 1836684604
+MouseLocDelta 281.0, 21.0
+Frame 9746
+CreateBlock 701727186
+MouseLocDelta 25.0, 10.0
+Frame 9782
+MouseLocDelta 53.0, 20.0
+Frame 9819
+MouseLocDelta 17.0, 6.0
+Frame 9855
+MouseLocDelta 8.0, 0.0
+Frame 9892
+Frame 9929
+Frame 9964
+Frame 10001
+Frame 10038
+MouseLocDelta -2.0, 0.0
+Frame 10073
+CreateBlock 1989360587
+MouseLocDelta -40.0, 0.0
+Frame 10110
+CreateBlock 1010485566
+MouseLocDelta -4.0, -1.0
+Frame 10145
+CreateBlock 930227286
+MouseLocDelta -2.0, -1.0
+Frame 10181
+CreateBlock 649045642
+MouseLocDelta -5.0, -4.0
+Frame 10216
+CreateBlock 1440661981
+MouseLocDelta -6.0, -4.0
+Frame 10252
+CreateBlock 327794742
+MouseLocDelta -3.0, -1.0
+Frame 10289
+CreateBlock 950674239
+MouseLocDelta -1.0, -1.0
+Frame 10327
+CreateBlock 703601193
+StartDragBlock 703601193
+MoveBlock 703601193 (46.34163, 9.75, -10.713409)
+MouseLocDelta 0.0, -2.0
+MouseClick true
+Frame 10363
+MoveBlock 703601193 (45.98812, 9.75, -10.038696)
+MouseLocDelta -1.0, -3.0
+Frame 10398
+MoveBlock 703601193 (45.2904, 9.75, -8.70623)
+MouseLocDelta -2.0, -6.0
+Frame 10437
+MoveBlock 703601193 (44.0412, 9.75, -6.966522)
+MouseLocDelta -5.0, -8.0
+Frame 10472
+MoveBlock 703601193 (41.52048, 9.75, -4.222969)
+MouseLocDelta -12.0, -13.0
+Frame 10509
+MoveBlock 703601193 (39.70322, 9.75, -2.7874603)
+MouseLocDelta -10.0, -7.0
+Frame 10544
+MoveBlock 703601193 (37.451164, 9.75, -1.1811066)
+MouseLocDelta -13.0, -8.0
+Frame 10580
+MoveBlock 703601193 (35.33754, 9.75, 0.5838394)
+MouseLocDelta -12.0, -9.0
+Frame 10616
+MoveBlock 703601193 (32.912865, 9.75, 2.1163635)
+MouseLocDelta -15.0, -8.0
+Frame 10653
+MoveBlock 703601193 (30.230799, 9.75, 3.8007584)
+MouseLocDelta -17.0, -9.0
+Frame 10688
+MoveBlock 703601193 (30.0, 9.75, 7.5)
+MouseLocDelta -15.0, -8.0
+Frame 10725
+MoveBlock 703601193 (22.5, 9.75, 7.5)
+MouseLocDelta -21.0, -10.0
+Frame 10762
+MouseLocDelta -6.0, -5.0
+Frame 10798
+MouseLocDelta -3.0, -1.0
+Frame 10835
+MouseLocDelta -7.0, -3.0
+Frame 10870
+MouseLocDelta -8.0, -3.0
+Frame 10906
+MouseLocDelta -5.0, -1.0
+Frame 10943
+MouseLocDelta -5.0, -1.0
+Frame 10979
+MouseLocDelta -1.0, 0.0
+Frame 11015
+MouseLocDelta -2.0, -2.0
+Frame 11053
+MouseLocDelta -3.0, -3.0
+Frame 11089
+MouseLocDelta -1.0, -1.0
+Frame 11126
+MoveBlock 703601193 (15.0, 9.75, 7.5)
+MouseLocDelta -2.0, -1.0
+Frame 11161
+MouseLocDelta -5.0, -2.0
+Frame 11198
+MouseLocDelta -2.0, -1.0
+Frame 11237
+MoveBlock 703601193 (15.0, 9.75, 15.0)
+MouseLocDelta 0.0, -1.0
+Frame 11278
+MouseLocDelta -2.0, -1.0
+Frame 11315
+MouseLocDelta -2.0, -2.0
+Frame 11355
+MouseLocDelta -1.0, -1.0
+Frame 11390
+Frame 11428
+MouseLocDelta 0.0, -1.0
+Frame 11464
+MouseLocDelta 0.0, -1.0
+Frame 11501
+Frame 11538
+Frame 11574
+Frame 11614
+Frame 11657
+EndDragBlock 703601193
+MouseReleased true
+NewTask 12
+Frame 11692
+Frame 11727
+Frame 11762
+Frame 11797
+Frame 11832
+Frame 11866
+MouseLocDelta 1.0, 0.0
+Frame 11900
+MouseLocDelta 3.0, 2.0
+Frame 11936
+Frame 11970
+Frame 12003
+Frame 12039
+Frame 12073
+Frame 12106
+Frame 12143
+Frame 12178
+Frame 12212
+Frame 12247
+MouseLocDelta 2.0, 0.0
+Frame 12282
+MouseLocDelta 4.0, 2.0
+Frame 12317
+MouseLocDelta 13.0, 4.0
+Frame 12353
+MouseLocDelta 35.0, 8.0
+Frame 12386
+MouseLocDelta 40.0, 11.0
+Frame 12421
+MouseLocDelta 21.0, 10.0
+Frame 12455
+MouseLocDelta 11.0, 11.0
+Frame 12490
+MouseLocDelta 6.0, 9.0
+Frame 12525
+MouseLocDelta 4.0, 6.0
+Frame 12560
+MouseLocDelta 3.0, 11.0
+Frame 12594
+MouseLocDelta 1.0, 4.0
+Frame 12630
+MouseLocDelta 1.0, 3.0
+Frame 12664
+CreateBlock 199156736
+MouseLocDelta 1.0, 2.0
+Frame 12700
+CreateBlock 1447739926
+MouseLocDelta 2.0, 4.0
+Frame 12735
+CreateBlock 1175215772
+MouseLocDelta 3.0, 4.0
+Frame 12770
+CreateBlock 1444378545
+MouseLocDelta 1.0, 4.0
+Frame 12804
+CreateBlock 515060127
+MouseLocDelta 2.0, 4.0
+Frame 12839
+CreateBlock 108973432
+MouseLocDelta 1.0, 2.0
+Frame 12874
+CreateBlock 1860404380
+Frame 12909
+CreateBlock 454514340
+StartDragBlock 454514340
+MoveBlock 454514340 (41.747105, 9.75, -6.5376663)
+MouseClick true
+Frame 12944
+MoveBlock 454514340 (41.518196, 9.75, -6.7517853)
+MouseLocDelta -2.0, 1.0
+Frame 12978
+MoveBlock 454514340 (37.610867, 9.75, -5.056389)
+MouseLocDelta -24.0, -8.0
+Frame 13013
+MoveBlock 454514340 (30.0, 9.75, -7.5)
+MouseLocDelta -71.0, -4.0
+Frame 13048
+MoveBlock 454514340 (15.0, 9.75, -7.5)
+MouseLocDelta -86.0, -2.0
+Frame 13083
+MoveBlock 454514340 (7.5, 9.75, -7.5)
+MouseLocDelta -48.0, 0.0
+Frame 13119
+MouseLocDelta -12.0, 0.0
+Frame 13168
+MouseLocDelta -5.0, 0.0
+Frame 13203
+MoveBlock 454514340 (0.0, 9.75, -7.5)
+MouseLocDelta -20.0, 0.0
+Frame 13239
+MouseLocDelta -12.0, 1.0
+Frame 13274
+MouseLocDelta -3.0, 1.0
+Frame 13309
+MouseLocDelta -1.0, 1.0
+Frame 13376
+Frame 13413
+MouseLocDelta 0.0, 3.0
+Frame 13449
+MouseLocDelta 0.0, 1.0
+Frame 13485
+Frame 13521
+MouseLocDelta -1.0, 0.0
+Frame 13558
+MouseLocDelta 0.0, 2.0
+Frame 13650
+MouseLocDelta 0.0, 2.0
+Frame 13687
+MouseLocDelta -1.0, 7.0
+Frame 13724
+MouseLocDelta 0.0, 2.0
+Frame 13758
+MouseLocDelta 0.0, 1.0
+Frame 13809
+MouseLocDelta 0.0, 1.0
+Frame 13845
+MouseLocDelta 0.0, 1.0
+Frame 13880
+MouseLocDelta 0.0, 1.0
+Frame 13915
+MouseLocDelta 1.0, 2.0
+Frame 13953
+MouseLocDelta 0.0, 1.0
+Frame 13988
+MouseLocDelta 0.0, 2.0
+Frame 14023
+MouseLocDelta 0.0, 2.0
+Frame 14059
+MouseLocDelta 0.0, 1.0
+Frame 14093
+MouseLocDelta 1.0, 1.0
+Frame 14127
+MouseLocDelta 1.0, 1.0
+Frame 14167
+MoveBlock 454514340 (0.0, 9.75, -15.0)
+MouseLocDelta 0.0, 1.0
+Frame 14201
+MouseLocDelta 0.0, 1.0
+Frame 14237
+Frame 14271
+MouseLocDelta 0.0, 1.0
+Frame 14306
+MouseLocDelta 0.0, 1.0
+Frame 14341
+MouseLocDelta 1.0, 3.0
+Frame 14375
+MouseLocDelta 0.0, 2.0
+Frame 14409
+Frame 14445
+Frame 14480
+EndDragBlock 454514340
+MouseReleased true
+Frame 14514
+Frame 14549
+Frame 14623
+MouseLocDelta 1.0, 0.0
+Frame 14658
+MouseLocDelta 122.0, -16.0
+Frame 14692
+MouseLocDelta 87.0, 0.0
+Frame 14728
+CreateBlock 235757239
+MouseLocDelta 58.0, -2.0
+Frame 14762
+CreateBlock 1625215216
+MouseLocDelta 37.0, -5.0
+Frame 14796
+CreateBlock 1651969326
+MouseLocDelta 6.0, 0.0
+Frame 14832
+CreateBlock 477594197
+MouseLocDelta 5.0, 0.0
+Frame 14866
+CreateBlock 1779280140
+MouseLocDelta 3.0, 0.0
+Frame 14901
+CreateBlock 651528505
+MouseLocDelta 5.0, 0.0
+Frame 14935
+MouseLocDelta 10.0, 0.0
+Frame 14968
+MouseLocDelta 3.0, 0.0
+Frame 15003
+Frame 15038
+MouseLocDelta -1.0, -1.0
+Frame 15073
+CreateBlock 220467482
+MouseLocDelta -14.0, -1.0
+Frame 15106
+CreateBlock 987678899
+MouseLocDelta -15.0, 0.0
+Frame 15142
+CreateBlock 2018147830
+MouseLocDelta -2.0, 0.0
+Frame 15176
+CreateBlock 1653858092
+MouseLocDelta -6.0, 0.0
+Frame 15211
+CreateBlock 1512109123
+MouseLocDelta -2.0, 0.0
+Frame 15247
+CreateBlock 696551663
+MouseLocDelta -1.0, 0.0
+Frame 15282
+CreateBlock 1010440244
+StartDragBlock 1010440244
+MoveBlock 1010440244 (41.868114, 9.75, -6.96653)
+MouseLocDelta -14.0, -3.0
+MouseClick true
+Frame 15318
+MoveBlock 1010440244 (39.984776, 9.75, -5.8990097)
+MouseLocDelta -11.0, -5.0
+Frame 15358
+MoveBlock 1010440244 (38.413956, 9.75, -4.847145)
+MouseLocDelta -9.0, -5.0
+Frame 15393
+MoveBlock 1010440244 (36.195568, 9.75, -3.3989716)
+MouseLocDelta -13.0, -7.0
+Frame 15430
+MoveBlock 1010440244 (33.32086, 9.75, -1.9799805)
+MouseLocDelta -18.0, -7.0
+Frame 15466
+MoveBlock 1010440244 (30.0, 9.75, 0.0)
+MouseLocDelta -30.0, -9.0
+Frame 15500
+MoveBlock 1010440244 (22.5, 9.75, 0.0)
+MouseLocDelta -21.0, -6.0
+Frame 15538
+MouseLocDelta -23.0, -5.0
+Frame 15584
+MouseLocDelta -22.0, -6.0
+Frame 15622
+MoveBlock 1010440244 (15.0, 9.75, 7.5)
+MouseLocDelta -22.0, -9.0
+Frame 15661
+MouseLocDelta -17.0, -7.0
+Frame 15698
+MouseLocDelta -8.0, -3.0
+Frame 15753
+MouseLocDelta -7.0, -5.0
+Frame 15798
+MoveBlock 1010440244 (7.5, 9.75, 7.5)
+MouseLocDelta -17.0, -11.0
+Frame 15843
+MouseLocDelta -8.0, -5.0
+Frame 15896
+MouseLocDelta -8.0, -3.0
+Frame 15958
+MouseLocDelta -11.0, -1.0
+Frame 16010
+MouseLocDelta -11.0, 0.0
+Frame 16057
+MouseLocDelta -1.0, 0.0
+Frame 16101
+MouseLocDelta -2.0, 0.0
+Frame 16149
+MoveBlock 1010440244 (0.0, 9.75, 7.5)
+MouseLocDelta -2.0, 0.0
+Frame 16194
+MoveBlock 1010440244 (0.0, 9.75, 15.0)
+MouseLocDelta -1.0, -3.0
+Frame 16243
+MouseLocDelta 0.0, -1.0
+Frame 16282
+MouseLocDelta -4.0, -2.0
+Frame 16318
+MouseLocDelta -6.0, -4.0
+Frame 16351
+MouseLocDelta -3.0, -2.0
+Frame 16386
+Frame 16422
+Frame 16458
+Frame 16492
+Frame 16528
+Frame 16563
+EndDragBlock 1010440244
+MouseReleased true
+Frame 16598
+MouseLocDelta -1.0, 0.0
+Frame 16632
+MouseLocDelta 0.0, 3.0
+Frame 16667
+MouseLocDelta 40.0, 14.0
+Frame 16703
+MouseLocDelta 69.0, 24.0
+Frame 16739
+MouseLocDelta 72.0, 29.0
+Frame 16773
+MouseLocDelta 38.0, 20.0
+Frame 16810
+MouseLocDelta 21.0, 11.0
+Frame 16846
+CreateBlock 1617829356
+MouseLocDelta 14.0, 6.0
+Frame 16883
+CreateBlock 174639979
+MouseLocDelta 9.0, 4.0
+Frame 16917
+CreateBlock 1711465251
+MouseLocDelta 8.0, 3.0
+Frame 16957
+CreateBlock 1200505639
+MouseLocDelta 1.0, 1.0
+Frame 16993
+CreateBlock 1289411108
+MouseLocDelta 2.0, 0.0
+Frame 17028
+CreateBlock 875010279
+MouseLocDelta 4.0, 2.0
+Frame 17063
+CreateBlock 329744497
+MouseLocDelta 2.0, 1.0
+Frame 17098
+CreateBlock 1507951819
+StartDragBlock 1507951819
+MoveBlock 1507951819 (43.198624, 9.75, -9.591927)
+MouseClick true
+Frame 17135
+Frame 17169
+MoveBlock 1507951819 (42.71475, 9.75, -8.9266815)
+MouseLocDelta -2.0, -3.0
+Frame 17204
+MoveBlock 1507951819 (41.88161, 9.75, -8.048767)
+MouseLocDelta -4.0, -4.0
+Frame 17239
+MoveBlock 1507951819 (36.089417, 9.75, -5.2662354)
+MouseLocDelta -35.0, -13.0
+Frame 17274
+MoveBlock 1507951819 (22.5, 9.75, 0.0)
+MouseLocDelta -66.0, -23.0
+Frame 17314
+MouseLocDelta -29.0, -12.0
+Frame 17349
+MoveBlock 1507951819 (15.0, 9.75, 7.5)
+MouseLocDelta -27.0, -14.0
+Frame 17384
+MouseLocDelta -20.0, -11.0
+Frame 17419
+MouseLocDelta -4.0, -2.0
+Frame 17456
+MouseLocDelta -3.0, -1.0
+Frame 17490
+MouseLocDelta -4.0, -1.0
+Frame 17525
+MouseLocDelta -2.0, -3.0
+Frame 17561
+MouseLocDelta -1.0, -2.0
+Frame 17597
+Frame 17641
+MouseLocDelta -3.0, -2.0
+Frame 17675
+MouseLocDelta -4.0, -3.0
+Frame 17711
+MoveBlock 1507951819 (7.5, 9.75, 7.5)
+MouseLocDelta -9.0, -4.0
+Frame 17756
+MouseLocDelta -6.0, -1.0
+Frame 17791
+MouseLocDelta -10.0, -6.0
+Frame 17827
+MoveBlock 1507951819 (7.5, 9.75, 15.0)
+MouseLocDelta -5.0, -7.0
+Frame 17861
+MouseLocDelta -5.0, -6.0
+Frame 17896
+MouseLocDelta -2.0, -2.0
+Frame 17934
+MouseLocDelta -3.0, -1.0
+Frame 17970
+MouseLocDelta -2.0, -1.0
+Frame 18004
+MouseLocDelta -4.0, -2.0
+Frame 18039
+MouseLocDelta -4.0, -1.0
+Frame 18075
+MouseLocDelta -4.0, -2.0
+Frame 18110
+MouseLocDelta -2.0, 0.0
+Frame 18145
+MouseLocDelta -2.0, 0.0
+Frame 18179
+MoveBlock 1507951819 (0.0, 9.75, 15.0)
+MouseLocDelta -1.0, 0.0
+Frame 18215
+MouseLocDelta -3.0, 0.0
+Frame 18253
+MouseLocDelta -2.0, 0.0
+Frame 18287
+MouseLocDelta -4.0, 0.0
+Frame 18324
+MouseLocDelta -4.0, 1.0
+Frame 18360
+MouseLocDelta -4.0, 0.0
+Frame 18396
+MouseLocDelta -2.0, 0.0
+Frame 18431
+Frame 18466
+Frame 18502
+Frame 18537
+Frame 18571
+Frame 18606
+MouseLocDelta -1.0, 0.0
+Frame 18641
+Frame 18676
+Frame 18710
+Frame 18745
+Frame 18780
+Frame 18814
+Frame 18854
+Frame 18889
+MouseLocDelta 0.0, 2.0
+Frame 18924
+Frame 18959
+MouseLocDelta 0.0, 1.0
+ScrollDelta 0.12
+Frame 18994
+MoveBlock 1507951819 (0.0, 9.87, 15.0)
+MouseLocDelta 0.0, 1.0
+Frame 19029
+Frame 19064
+Frame 19112
+ScrollDelta 0.12
+Frame 19147
+MoveBlock 1507951819 (0.0, 9.99, 15.0)
+Frame 19181
+Frame 19216
+ScrollDelta 0.12
+Frame 19254
+MoveBlock 1507951819 (0.0, 10.11, 15.0)
+Frame 19288
+Frame 19324
+Frame 19359
+Frame 19394
+Frame 19429
+ScrollDelta 0.12
+Frame 19463
+MoveBlock 1507951819 (0.0, 10.23, 15.0)
+MouseLocDelta 0.0, 1.0
+Frame 19498
+Frame 19533
+Frame 19569
+Frame 19606
+Frame 19645
+MouseLocDelta 0.0, 1.0
+Frame 19680
+Frame 19718
+Frame 19754
+Frame 19789
+MouseLocDelta 0.0, 1.0
+Frame 19824
+MouseLocDelta 0.0, 1.0
+Frame 19859
+Frame 19893
+Frame 19928
+EndDragBlock 1507951819
+MouseReleased true
+Frame 19963
+Frame 19997
+Frame 20030
+Frame 20064
+Frame 20098
+Frame 20133
+Frame 20166
+Frame 20201
+MouseLocDelta 0.0, 1.0
+Frame 20237
+Frame 20271
+Frame 20305
+MouseLocDelta 19.0, -5.0
+Frame 20341
+MouseLocDelta 93.0, -1.0
+Frame 20376
+MouseLocDelta 194.0, 30.0
+Frame 20410
+MouseLocDelta 51.0, 19.0
+Frame 20446
+MouseLocDelta 15.0, 10.0
+Frame 20481
+MouseLocDelta 8.0, 12.0
+Frame 20516
+MouseLocDelta 5.0, 9.0
+Frame 20550
+MouseLocDelta 1.0, 7.0
+Frame 20586
+MouseLocDelta -2.0, 7.0
+Frame 20621
+MouseLocDelta -1.0, 5.0
+Frame 20656
+MouseLocDelta 1.0, 3.0
+Frame 20690
+MouseLocDelta 0.0, 4.0
+Frame 20726
+MouseLocDelta -25.0, 2.0
+Frame 20761
+MouseLocDelta -28.0, 0.0
+Frame 20795
+MouseLocDelta -7.0, 1.0
+Frame 20830
+MouseLocDelta -4.0, 0.0
+Frame 20866
+CreateBlock 70630159
+MouseLocDelta -7.0, 0.0
+Frame 20900
+CreateBlock 1670109169
+MouseLocDelta -5.0, 0.0
+Frame 20936
+CreateBlock 1913537093
+MouseLocDelta -7.0, 1.0
+Frame 20970
+CreateBlock 102824579
+MouseLocDelta -3.0, 0.0
+Frame 21005
+CreateBlock 1595847065
+Frame 21041
+CreateBlock 1478354072
+StartDragBlock 1478354072
+MoveBlock 1478354072 (44.556118, 9.75, -6.7517853)
+MouseClick true
+Frame 21075
+MoveBlock 1478354072 (44.411457, 9.75, -6.7517853)
+MouseLocDelta -1.0, 0.0
+Frame 21110
+MoveBlock 1478354072 (43.913918, 9.75, -6.537674)
+MouseLocDelta -3.0, -1.0
+Frame 21147
+MoveBlock 1478354072 (42.247524, 9.75, -5.2662354)
+MouseLocDelta -9.0, -6.0
+Frame 21182
+MoveBlock 1478354072 (39.47362, 9.75, -4.0160904)
+MouseLocDelta -17.0, -6.0
+Frame 21216
+MoveBlock 1478354072 (33.50779, 9.75, -2.1811066)
+MouseLocDelta -39.0, -9.0
+Frame 21250
+MoveBlock 1478354072 (30.0, 9.75, 0.0)
+MouseLocDelta -34.0, -11.0
+Frame 21284
+MoveBlock 1478354072 (22.5, 9.75, 0.0)
+MouseLocDelta -33.0, -18.0
+Frame 21319
+MoveBlock 1478354072 (22.5, 9.75, 7.5)
+MouseLocDelta -20.0, -11.0
+Frame 21352
+MouseLocDelta -5.0, -3.0
+Frame 21386
+MoveBlock 1478354072 (15.0, 9.75, 7.5)
+MouseLocDelta -11.0, -4.0
+Frame 21421
+MouseLocDelta -11.0, -4.0
+Frame 21455
+MouseLocDelta -5.0, -1.0
+Frame 21489
+MouseLocDelta -16.0, 0.0
+Frame 21529
+MoveBlock 1478354072 (7.5, 9.75, 7.5)
+MouseLocDelta -26.0, 1.0
+Frame 21565
+MouseLocDelta -36.0, -6.0
+Frame 21605
+MouseLocDelta -12.0, -1.0
+Frame 21649
+MouseLocDelta -1.0, 0.0
+Frame 21683
+MoveBlock 1478354072 (0.0, 9.75, 7.5)
+MouseLocDelta -2.0, 0.0
+Frame 21719
+MouseLocDelta -3.0, 0.0
+Frame 21756
+MouseLocDelta -2.0, 0.0
+Frame 21791
+MouseLocDelta -6.0, 2.0
+Frame 21825
+MouseLocDelta -7.0, 3.0
+Frame 21860
+MouseLocDelta -10.0, 1.0
+Frame 21894
+MouseLocDelta -1.0, 0.0
+Frame 21929
+Frame 21964
+MouseLocDelta -1.0, 0.0
+Frame 21999
+Frame 22032
+ScrollDelta 0.12
+Frame 22066
+MoveBlock 1478354072 (0.0, 9.87, 7.5)
+ScrollDelta 0.84
+Frame 22100
+MoveBlock 1478354072 (0.0, 10.71, 7.5)
+Frame 22135
+ScrollDelta 1.32
+Frame 22170
+MoveBlock 1478354072 (0.0, 12.03, 7.5)
+ScrollDelta 1.68
+Frame 22204
+MoveBlock 1478354072 (0.0, 13.71, 7.5)
+ScrollDelta 1.92
+Frame 22240
+MoveBlock 1478354072 (0.0, 15.63, 7.5)
+ScrollDelta 2.16
+Frame 22275
+MoveBlock 1478354072 (0.0, 17.79, 7.5)
+MouseLocDelta 0.0, 1.0
+Frame 22310
+Frame 22344
+MouseLocDelta 0.0, 1.0
+Frame 22378
+Frame 22413
+Frame 22448
+Frame 22482
+Frame 22517
+Frame 22553
+Frame 22586
+MouseLocDelta 0.0, -1.0
+Frame 22621
+MouseLocDelta 1.0, 0.0
+Frame 22656
+MouseLocDelta 0.0, -1.0
+Frame 22691
+MouseLocDelta 1.0, 0.0
+Frame 22725
+Frame 22759
+ScrollDelta 0.12
+Frame 22794
+MoveBlock 1478354072 (0.0, 17.910002, 7.5)
+MouseLocDelta -1.0, 1.0
+ScrollDelta 0.84
+Frame 22829
+MoveBlock 1478354072 (0.0, 18.750002, 7.5)
+Frame 22863
+Frame 22898
+ScrollDelta 0.84
+Frame 22934
+MoveBlock 1478354072 (0.0, 19.590002, 7.5)
+Frame 22969
+Frame 23002
+Frame 23038
+Frame 23073
+Frame 23107
+Frame 23142
+MouseLocDelta 1.0, -1.0
+Frame 23177
+Frame 23213
+MouseLocDelta 0.0, 1.0
+Frame 23248
+Frame 23283
+Frame 23319
+MouseLocDelta 1.0, 0.0
+Frame 23356
+MouseLocDelta 0.0, -6.0
+Frame 23389
+MouseLocDelta 0.0, -7.0
+Frame 23426
+MouseLocDelta 0.0, -4.0
+Frame 23468
+MouseLocDelta 1.0, -5.0
+Frame 23503
+MoveBlock 1478354072 (0.0, 19.590002, 15.0)
+MouseLocDelta 0.0, -8.0
+Frame 23540
+MouseLocDelta 0.0, -1.0
+Frame 23576
+MouseLocDelta 0.0, -2.0
+Frame 23611
+MouseLocDelta 0.0, -2.0
+Frame 23651
+MouseLocDelta 0.0, -1.0
+Frame 23686
+MouseLocDelta 0.0, -1.0
+Frame 23721
+Frame 23755
+Frame 23790
+Frame 23825
+Frame 23858
+Frame 23892
+Frame 23927
+Frame 23963
+Frame 23998
+EndDragBlock 1478354072
+MouseReleased true
+NewTask 18
+Frame 24032
+Frame 24065
+Frame 24098
+Frame 24131
+Frame 24164
+Frame 24199
+MouseLocDelta 4.0, 2.0
+Frame 24232
+MouseLocDelta 2.0, 1.0
+Frame 24267
+MouseLocDelta 2.0, 0.0
+Frame 24301
+MouseLocDelta 13.0, 1.0
+Frame 24335
+MouseLocDelta 97.0, 0.0
+Frame 24368
+MouseLocDelta 127.0, 0.0
+Frame 24403
+MouseLocDelta 50.0, 8.0
+Frame 24440
+MouseLocDelta 17.0, 6.0
+Frame 24474
+MouseLocDelta 19.0, 9.0
+Frame 24507
+MouseLocDelta 32.0, 19.0
+Frame 24542
+MouseLocDelta 8.0, 12.0
+Frame 24575
+MouseLocDelta 5.0, 12.0
+Frame 24609
+MouseLocDelta 7.0, 20.0
+Frame 24643
+MouseLocDelta 1.0, 19.0
+Frame 24677
+MouseLocDelta 0.0, 5.0
+Frame 24711
+Frame 24746
+MouseLocDelta 0.0, 1.0
+Frame 24780
+MouseLocDelta -4.0, 4.0
+Frame 24814
+MouseLocDelta -11.0, 4.0
+Frame 24847
+MouseLocDelta -19.0, 5.0
+Frame 24881
+MouseLocDelta -6.0, 1.0
+Frame 24914
+Frame 24949
+MouseLocDelta -1.0, 0.0
+Frame 24982
+CreateBlock 1884617201
+MouseLocDelta -6.0, 0.0
+Frame 25017
+CreateBlock 1524987604
+MouseLocDelta -4.0, 0.0
+Frame 25053
+CreateBlock 249333483
+MouseLocDelta -4.0, 0.0
+Frame 25086
+CreateBlock 807253484
+MouseLocDelta -4.0, -1.0
+Frame 25121
+CreateBlock 1855107489
+StartDragBlock 1855107489
+MoveBlock 1855107489 (47.833336, 9.75, -10.263069)
+MouseLocDelta -3.0, -2.0
+MouseClick true
+Frame 25156
+MoveBlock 1855107489 (46.95376, 9.75, -9.814972)
+MouseLocDelta -5.0, -2.0
+Frame 25191
+MoveBlock 1855107489 (44.916546, 9.75, -8.9266815)
+MouseLocDelta -12.0, -4.0
+Frame 25225
+MoveBlock 1855107489 (40.450382, 9.75, -7.6144867)
+MouseLocDelta -28.0, -6.0
+Frame 25259
+MoveBlock 1855107489 (32.028038, 9.75, -5.687355)
+MouseLocDelta -55.0, -9.0
+Frame 25294
+MoveBlock 1855107489 (22.5, 9.75, -7.5)
+MouseLocDelta -47.0, -7.0
+Frame 25328
+MoveBlock 1855107489 (22.5, 9.75, 0.0)
+MouseLocDelta -28.0, -6.0
+Frame 25363
+MoveBlock 1855107489 (15.0, 9.75, 0.0)
+MouseLocDelta -23.0, -3.0
+Frame 25398
+MouseLocDelta -13.0, -3.0
+Frame 25433
+MouseLocDelta -9.0, -1.0
+Frame 25467
+MouseLocDelta -10.0, 0.0
+Frame 25501
+MouseLocDelta -6.0, 0.0
+Frame 25539
+MoveBlock 1855107489 (7.5, 9.75, 0.0)
+MouseLocDelta -8.0, 0.0
+Frame 25574
+MouseLocDelta -4.0, 0.0
+Frame 25614
+MouseLocDelta -2.0, 0.0
+Frame 25649
+MouseLocDelta -12.0, -1.0
+Frame 25683
+MouseLocDelta -12.0, -2.0
+Frame 25718
+MouseLocDelta -20.0, -2.0
+Frame 25752
+MouseLocDelta -1.0, 0.0
+Frame 25785
+Frame 25818
+Frame 25852
+Frame 25885
+Frame 25919
+EndDragBlock 1855107489
+MouseReleased true
+Frame 25952
+Frame 25986
+Frame 26019
+Frame 26053
+MouseLocDelta 6.0, 0.0
+Frame 26087
+MouseLocDelta 6.0, 1.0
+Frame 26119
+Frame 26154
+Frame 26188
+Frame 26221
+Frame 26254
+Frame 26289
+Frame 26324
+Frame 26357
+MouseLocDelta 10.0, 4.0
+Frame 26392
+MouseLocDelta 45.0, 8.0
+Frame 26427
+MouseLocDelta 28.0, 7.0
+Frame 26462
+MouseLocDelta 26.0, 7.0
+Frame 26496
+MouseLocDelta 21.0, 4.0
+Frame 26532
+MouseLocDelta 6.0, 1.0
+Frame 26566
+MouseLocDelta 6.0, 0.0
+Frame 26599
+MouseLocDelta 12.0, 0.0
+Frame 26633
+MouseLocDelta 21.0, 0.0
+Frame 26668
+MouseLocDelta 11.0, 0.0
+Frame 26704
+MouseLocDelta 11.0, 2.0
+Frame 26738
+MouseLocDelta 12.0, 2.0
+Frame 26773
+CreateBlock 375652924
+MouseLocDelta 10.0, 2.0
+Frame 26807
+CreateBlock 2144255135
+MouseLocDelta 7.0, 2.0
+Frame 26843
+CreateBlock 1572973638
+MouseLocDelta 1.0, 0.0
+Frame 26876
+CreateBlock 1444239296
+MouseLocDelta 0.0, 1.0
+Frame 26911
+CreateBlock 322185831
+StartDragBlock 322185831
+MoveBlock 322185831 (39.249523, 9.75, -9.147789)
+MouseClick true
+Frame 26947
+Frame 26981
+Frame 27015
+MoveBlock 322185831 (38.108425, 9.75, -8.706238)
+MouseLocDelta -7.0, -2.0
+Frame 27049
+MoveBlock 322185831 (22.5, 9.75, -7.5)
+MouseLocDelta -103.0, -14.0
+Frame 27085
+MoveBlock 322185831 (-15.0, 9.75, -7.5)
+MouseLocDelta -241.0, 0.0
+Frame 27121
+MoveBlock 322185831 (-22.5, 9.75, -7.5)
+MouseLocDelta -96.0, -9.0
+Frame 27156
+MoveBlock 322185831 (-30.0, 9.75, 0.0)
+MouseLocDelta -15.0, -6.0
+Frame 27192
+MouseLocDelta -6.0, -2.0
+Frame 27228
+MouseLocDelta -3.0, -1.0
+Frame 27263
+Frame 27297
+Frame 27333
+MouseLocDelta 0.0, -1.0
+Frame 27368
+MouseLocDelta 5.0, -1.0
+Frame 27401
+MoveBlock 322185831 (-22.5, 9.75, 0.0)
+MouseLocDelta 31.0, -6.0
+Frame 27437
+MoveBlock 322185831 (-15.0, 9.75, 0.0)
+MouseLocDelta 36.0, -7.0
+Frame 27473
+MouseLocDelta 25.0, -3.0
+Frame 27509
+MouseLocDelta 11.0, -2.0
+Frame 27545
+MouseLocDelta 8.0, -1.0
+Frame 27580
+MoveBlock 322185831 (-7.5, 9.75, 0.0)
+MouseLocDelta 12.0, -2.0
+Frame 27617
+MouseLocDelta 5.0, -1.0
+Frame 27653
+MouseLocDelta 1.0, 0.0
+Frame 27688
+Frame 27723
+MouseLocDelta 1.0, 0.0
+Frame 27759
+MouseLocDelta 15.0, -2.0
+Frame 27794
+MouseLocDelta 6.0, 0.0
+Frame 27827
+Frame 27862
+Frame 27896
+MouseLocDelta 2.0, -1.0
+Frame 27931
+MouseLocDelta 4.0, 0.0
+Frame 27964
+MouseLocDelta 3.0, -2.0
+Frame 27998
+MoveBlock 322185831 (-7.5, 9.75, 7.5)
+MouseLocDelta 5.0, -2.0
+Frame 28032
+MouseLocDelta 3.0, -1.0
+Frame 28067
+MouseLocDelta 2.0, -1.0
+Frame 28100
+MouseLocDelta 0.0, -1.0
+Frame 28136
+MoveBlock 322185831 (0.0, 9.75, 7.5)
+MouseLocDelta 5.0, 0.0
+Frame 28171
+MouseLocDelta 4.0, -1.0
+Frame 28204
+MouseLocDelta 2.0, 0.0
+Frame 28240
+Frame 28277
+MouseLocDelta 1.0, 0.0
+Frame 28312
+Frame 28346
+MouseLocDelta 2.0, 1.0
+Frame 28381
+MouseLocDelta 0.0, 1.0
+Frame 28416
+MouseLocDelta 1.0, 0.0
+Frame 28453
+Frame 28486
+Frame 28522
+MouseLocDelta 0.0, 1.0
+Frame 28558
+MoveBlock 322185831 (0.0, 9.75, 0.0)
+MouseLocDelta 0.0, 6.0
+Frame 28594
+MouseLocDelta 0.0, 3.0
+Frame 28629
+MouseLocDelta 0.0, 3.0
+Frame 28663
+Frame 28698
+MouseLocDelta 0.0, 1.0
+Frame 28734
+MouseLocDelta 0.0, 1.0
+Frame 28767
+Frame 28801
+Frame 28836
+Frame 28871
+Frame 28904
+EndDragBlock 322185831
+MouseReleased true
+Frame 28943
+MouseLocDelta 0.0, -1.0
+Frame 28979
+MouseLocDelta 2.0, 0.0
+Frame 29014
+MouseLocDelta 5.0, 1.0
+Frame 29047
+MouseLocDelta 3.0, -1.0
+Frame 29082
+MouseLocDelta 35.0, -48.0
+Frame 29116
+MouseLocDelta -23.0, -27.0
+Frame 29150
+Frame 29184
+Frame 29218
+Frame 29253
+Frame 29288
+Frame 29322
+Frame 29355
+Frame 29390
+Frame 29425
+MouseLocDelta 8.0, 0.0
+Frame 29460
+MouseLocDelta 63.0, 34.0
+Frame 29494
+MouseLocDelta 18.0, 16.0
+Frame 29529
+MouseLocDelta 22.0, 13.0
+Frame 29565
+MouseLocDelta 11.0, 5.0
+Frame 29605
+MouseLocDelta 26.0, 6.0
+Frame 29640
+MouseLocDelta 26.0, 7.0
+Frame 29675
+MouseLocDelta 24.0, 8.0
+Frame 29711
+MouseLocDelta 3.0, 2.0
+Frame 29747
+MouseLocDelta 6.0, 2.0
+Frame 29781
+MouseLocDelta 18.0, 5.0
+Frame 29816
+MouseLocDelta 8.0, 5.0
+Frame 29852
+MouseLocDelta 3.0, 3.0
+Frame 29886
+MouseLocDelta 7.0, 5.0
+Frame 29918
+MouseLocDelta 4.0, 4.0
+Frame 29953
+CreateBlock 877230050
+MouseLocDelta 1.0, 1.0
+Frame 29988
+CreateBlock 1130213695
+MouseLocDelta 2.0, 2.0
+Frame 30022
+CreateBlock 1008714150
+MouseLocDelta 3.0, 0.0
+Frame 30056
+CreateBlock 1222809632
+StartDragBlock 1222809632
+MoveBlock 1222809632 (37.811687, 9.75, -6.96653)
+MouseClick true
+Frame 30091
+Frame 30126
+Frame 30159
+MoveBlock 1222809632 (37.776302, 9.75, -7.397873)
+MouseLocDelta -1.0, 2.0
+Frame 30197
+MoveBlock 1222809632 (33.417507, 9.75, -7.397873)
+MouseLocDelta -30.0, 0.0
+Frame 30235
+MoveBlock 1222809632 (22.5, 9.75, -7.5)
+MouseLocDelta -91.0, 0.0
+Frame 30270
+MoveBlock 1222809632 (7.5, 9.75, -7.5)
+MouseLocDelta -75.0, 0.0
+Frame 30304
+MouseLocDelta -23.0, -2.0
+Frame 30339
+MouseLocDelta -7.0, -2.0
+Frame 30374
+MouseLocDelta -3.0, -1.0
+Frame 30409
+MouseLocDelta -3.0, -2.0
+Frame 30445
+MoveBlock 1222809632 (0.0, 9.75, -7.5)
+MouseLocDelta -13.0, -5.0
+Frame 30480
+MouseLocDelta -15.0, -2.0
+Frame 30515
+MouseLocDelta -4.0, -1.0
+Frame 30550
+Frame 30583
+Frame 30618
+MouseLocDelta -1.0, -1.0
+Frame 30653
+MouseLocDelta 0.0, -1.0
+Frame 30687
+MoveBlock 1222809632 (0.0, 9.75, 0.0)
+MouseLocDelta 0.0, -1.0
+Frame 30722
+Frame 30758
+MouseLocDelta 0.0, -1.0
+Frame 30793
+MouseLocDelta 0.0, -1.0
+Frame 30829
+MouseLocDelta 1.0, -2.0
+Frame 30863
+MouseLocDelta 0.0, -2.0
+Frame 30897
+MouseLocDelta 0.0, -1.0
+Frame 30932
+Frame 30966
+Frame 31000
+Frame 31035
+Frame 31069
+Frame 31103
+Frame 31138
+Frame 31175
+Frame 31212
+Frame 31246
+Frame 31281
+EndDragBlock 1222809632
+MouseReleased true
+Frame 31315
+Frame 31351
+Frame 31384
+MouseLocDelta 1.0, 0.0
+Frame 31420
+MouseLocDelta 17.0, 1.0
+Frame 31456
+MouseLocDelta 54.0, 4.0
+Frame 31491
+MouseLocDelta 46.0, 0.0
+Frame 31528
+MouseLocDelta 20.0, 3.0
+Frame 31565
+MouseLocDelta 30.0, 5.0
+Frame 31606
+MouseLocDelta 17.0, 3.0
+Frame 31645
+MouseLocDelta 14.0, 2.0
+Frame 31679
+MouseLocDelta 10.0, 1.0
+Frame 31713
+MouseLocDelta 3.0, 0.0
+Frame 31751
+MouseLocDelta 3.0, 2.0
+Frame 31785
+MouseLocDelta 2.0, 1.0
+Frame 31818
+MouseLocDelta 4.0, 2.0
+Frame 31852
+MouseLocDelta 5.0, 3.0
+Frame 31887
+MouseLocDelta 6.0, 2.0
+Frame 31921
+MouseLocDelta 4.0, 2.0
+Frame 31956
+MouseLocDelta 4.0, 1.0
+Frame 31990
+MouseLocDelta 6.0, 1.0
+Frame 32024
+MouseLocDelta 4.0, 1.0
+Frame 32058
+MouseLocDelta 2.0, 0.0
+Frame 32091
+CreateBlock 1723642430
+MouseLocDelta 4.0, 2.0
+Frame 32127
+CreateBlock 1851406627
+MouseLocDelta 4.0, 0.0
+Frame 32163
+CreateBlock 1700618606
+MouseLocDelta 2.0, 0.0
+Frame 32197
+CreateBlock 1437053119
+MouseLocDelta 5.0, 1.0
+Frame 32232
+CreateBlock 1950676871
+MouseLocDelta 1.0, 0.0
+Frame 32267
+CreateBlock 1540815795
+Frame 32304
+CreateBlock 2133251039
+MouseLocDelta 1.0, 0.0
+Frame 32339
+CreateBlock 1310725808
+StartDragBlock 1310725808
+MoveBlock 1310725808 (39.18602, 9.75, -10.038696)
+MouseClick true
+Frame 32373
+MoveBlock 1310725808 (38.890274, 9.75, -10.038696)
+MouseLocDelta -2.0, 0.0
+Frame 32408
+MoveBlock 1310725808 (36.897495, 9.75, -9.147781)
+MouseLocDelta -12.0, -4.0
+Frame 32444
+MoveBlock 1310725808 (31.952444, 9.75, -8.706238)
+MouseLocDelta -33.0, -2.0
+Frame 32480
+MoveBlock 1310725808 (22.5, 9.75, -7.5)
+MouseLocDelta -69.0, 0.0
+Frame 32517
+MoveBlock 1310725808 (7.5, 9.75, -7.5)
+MouseLocDelta -81.0, 0.0
+Frame 32552
+MouseLocDelta -9.0, 0.0
+Frame 32587
+MouseLocDelta -4.0, 0.0
+Frame 32621
+MouseLocDelta -2.0, 0.0
+Frame 32655
+Frame 32689
+MouseLocDelta -1.0, -1.0
+Frame 32725
+MouseLocDelta -5.0, -2.0
+Frame 32759
+MouseLocDelta -3.0, -2.0
+Frame 32793
+MouseLocDelta -1.0, -1.0
+Frame 32828
+MouseLocDelta 0.0, -1.0
+Frame 32864
+MouseLocDelta 0.0, -1.0
+Frame 32897
+MouseLocDelta 0.0, -2.0
+Frame 32932
+MouseLocDelta 1.0, -2.0
+Frame 32968
+MouseLocDelta 1.0, -1.0
+Frame 33003
+MouseLocDelta 1.0, -1.0
+Frame 33037
+Frame 33072
+Frame 33107
+MouseLocDelta 1.0, -1.0
+Frame 33141
+Frame 33175
+Frame 33211
+MouseLocDelta 0.0, -1.0
+Frame 33248
+MouseLocDelta 1.0, -1.0
+Frame 33282
+MouseLocDelta 0.0, -2.0
+Frame 33317
+MouseLocDelta 0.0, -1.0
+Frame 33352
+MouseLocDelta 0.0, -1.0
+Frame 33388
+MouseLocDelta 0.0, -2.0
+Frame 33421
+MoveBlock 1310725808 (7.5, 9.75, 0.0)
+MouseLocDelta 0.0, -1.0
+Frame 33457
+MouseLocDelta 0.0, -1.0
+Frame 33491
+Frame 33527
+Frame 33564
+MouseLocDelta 1.0, -1.0
+Frame 33599
+MouseLocDelta 0.0, -2.0
+Frame 33637
+MouseLocDelta 0.0, -2.0
+Frame 33672
+Frame 33710
+Frame 33744
+Frame 33779
+Frame 33813
+Frame 33848
+Frame 33882
+Frame 33917

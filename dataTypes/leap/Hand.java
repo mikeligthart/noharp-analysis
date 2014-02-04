@@ -25,8 +25,24 @@ public class Hand extends GenericDataType {
 		return isLeft;
 	}
 	
-	public double getDistanceTraveled(){
-		return Math.sqrt((x*x) + (y*y) + (z*z));
+	public double getDistanceTraveled(Hand previousHand){
+		double deltaX = Math.abs(x - previousHand.getX());
+		double deltaY = Math.abs(y - previousHand.getY());
+		double deltaZ = Math.abs(z - previousHand.getZ());
+		
+		return Math.sqrt((deltaX*deltaX) + (deltaY*deltaY) + (deltaZ*deltaZ));
+	}
+	
+	public double getX(){
+		return x;
+	}
+	
+	public double getY(){
+		return y;
+	}
+	
+	public double getZ(){
+		return z;
 	}
 
 	@Override

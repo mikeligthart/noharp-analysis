@@ -24,6 +24,7 @@ public class DeviceDistance {
 	
 	private void calculate(){
 		distance = 0.0;
+		Hand previousHand = null;
 		for (Iterator<GenericDataType> it = dataPoints.iterator(); it.hasNext();){
 			GenericDataType currentPoint = it.next();
 			if (device == InteractionDevice.KEYBOARD){
@@ -34,8 +35,14 @@ public class DeviceDistance {
 			}
 			else {
 				if (currentPoint.getName() == DataTypes.HAND){
-					Hand delta = (Hand) currentPoint;
-					distance += delta.getDistanceTraveled();
+					if (previousHand == null){
+						previousHand = (Hand) currentPoint;
+					}
+					else {
+						Hand currentHand = (Hand) currentPoint;
+						distance += currentHand.getDistanceTraveled(previousHand);
+						previousHand = currentHand;
+					}
 				}
 			}				
 		}
